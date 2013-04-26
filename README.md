@@ -5,7 +5,8 @@ openALG
 
 Thanks
 =======
-Thanks for the author of "Mastering Algorithms with C", since almost all of the code come from the book.
+Thanks for the author of "Mastering Algorithms with C", since almost all of the 
+code come from the book.
 And I try to pull the code to the github for easy learning and hacking.
 
 Contents
