@@ -1,0 +1,1181 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.8	//
+ALGOWC_TOPDIR	examples/list/makefile	/^ALGOWC_TOPDIR = \/home\/roubo\/a8\/android_gingerbread_x210ii\/testdir\/examples\/examples_unix\/$/;"	m
+AVL_BALANCED	include/bistree.h	19;"	d
+AVL_LFT_HEAVY	include/bistree.h	18;"	d
+AVL_RGT_HEAVY	include/bistree.h	20;"	d
+AdjList	include/graph.h	/^} AdjList;$/;"	t	typeref:struct:AdjList_
+AdjList_	include/graph.h	/^typedef struct AdjList_ {$/;"	s
+AdjList_::adjacent	include/graph.h	/^Set                adjacent;$/;"	m	struct:AdjList_	access:public
+AdjList_::vertex	include/graph.h	/^void               *vertex;$/;"	m	struct:AdjList_	access:public
+AvlNode	include/bistree.h	/^} AvlNode;$/;"	t	typeref:struct:AvlNode_
+AvlNode_	include/bistree.h	/^typedef struct AvlNode_ {$/;"	s
+AvlNode_::data	include/bistree.h	/^void               *data;$/;"	m	struct:AvlNode_	access:public
+AvlNode_::factor	include/bistree.h	/^int                factor;$/;"	m	struct:AvlNode_	access:public
+AvlNode_::hidden	include/bistree.h	/^int                hidden;$/;"	m	struct:AvlNode_	access:public
+BFS_H	include/bfs.h	8;"	d
+BISTREE_H	include/bistree.h	8;"	d
+BITREE_H	include/bitree.h	8;"	d
+BIT_H	include/bit.h	8;"	d
+BfsVertex	include/bfs.h	/^} BfsVertex;$/;"	t	typeref:struct:BfsVertex_
+BfsVertex_	include/bfs.h	/^typedef struct BfsVertex_ {$/;"	s
+BfsVertex_::color	include/bfs.h	/^VertexColor        color;$/;"	m	struct:BfsVertex_	access:public
+BfsVertex_::data	include/bfs.h	/^void               *data;$/;"	m	struct:BfsVertex_	access:public
+BfsVertex_::hops	include/bfs.h	/^int                hops;$/;"	m	struct:BfsVertex_	access:public
+BiTree	include/bitree.h	/^} BiTree;$/;"	t	typeref:struct:BiTree_
+BiTreeNode	include/bitree.h	/^} BiTreeNode;$/;"	t	typeref:struct:BiTreeNode_
+BiTreeNode_	include/bitree.h	/^typedef struct BiTreeNode_ {$/;"	s
+BiTreeNode_::data	include/bitree.h	/^void               *data;$/;"	m	struct:BiTreeNode_	access:public
+BiTreeNode_::left	include/bitree.h	/^struct BiTreeNode_ *left;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_	access:public
+BiTreeNode_::right	include/bitree.h	/^struct BiTreeNode_ *right;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_	access:public
+BiTree_	include/bitree.h	/^typedef struct BiTree_ {$/;"	s
+BiTree_::compare	include/bitree.h	/^int                (*compare)(const void *key1, const void *key2);$/;"	m	struct:BiTree_	access:public
+BiTree_::destroy	include/bitree.h	/^void               (*destroy)(void *data);$/;"	m	struct:BiTree_	access:public
+BiTree_::root	include/bitree.h	/^BiTreeNode         *root;$/;"	m	struct:BiTree_	access:public
+BiTree_::size	include/bitree.h	/^int                size;$/;"	m	struct:BiTree_	access:public
+BisTree	include/bistree.h	/^typedef BiTree BisTree;$/;"	t
+CBC_H	include/cbc.h	8;"	d
+CC	examples/bistree/bistree.mak	/^CC     = c89$/;"	m
+CC	examples/bit/bit.mak	/^CC     = c89$/;"	m
+CC	examples/bitree/bitree.mak	/^CC     = c89$/;"	m
+CC	examples/chtbl/chtbl.mak	/^CC     = c89$/;"	m
+CC	examples/clist/clist.mak	/^CC     = c89$/;"	m
+CC	examples/clist/page.mak	/^CC     = c89$/;"	m
+CC	examples/compress/compress.mak	/^CC     = c89$/;"	m
+CC	examples/dlist/dlist.mak	/^CC     = c89$/;"	m
+CC	examples/encrypt/cbc.mak	/^CC     = c89$/;"	m
+CC	examples/encrypt/encrypt.mak	/^CC     = c89$/;"	m
+CC	examples/geometry/geodist.mak	/^CC     = c89$/;"	m
+CC	examples/geometry/geometry.mak	/^CC     = c89$/;"	m
+CC	examples/graph/bfs.mak	/^CC     = c89$/;"	m
+CC	examples/graph/dfs.mak	/^CC     = c89$/;"	m
+CC	examples/graph/graph.mak	/^CC     = c89$/;"	m
+CC	examples/graphalg/graphalg.mak	/^CC     = c89$/;"	m
+CC	examples/graphalg/route.mak	/^CC     = c89$/;"	m
+CC	examples/heap/heap.mak	/^CC     = c89$/;"	m
+CC	examples/list/makefile	/^CC     = c89$/;"	m
+CC	examples/nummeths/nummeths.mak	/^CC     = c89$/;"	m
+CC	examples/ohtbl/ohtbl.mak	/^CC     = c89$/;"	m
+CC	examples/pqueue/pqueue.mak	/^CC     = c89$/;"	m
+CC	examples/queue/queue.mak	/^CC     = c89$/;"	m
+CC	examples/recurse/fact.mak	/^CC     = c89$/;"	m
+CC	examples/recurse/factor.mak	/^CC     = c89$/;"	m
+CC	examples/search/search.mak	/^CC     = c89$/;"	m
+CC	examples/search/spell.mak	/^CC     = c89$/;"	m
+CC	examples/set/cover.mak	/^CC     = c89$/;"	m
+CC	examples/set/set.mak	/^CC     = c89$/;"	m
+CC	examples/sort/directls.mak	/^CC     = c89$/;"	m
+CC	examples/sort/sort.mak	/^CC     = c89$/;"	m
+CC	examples/stack/stack.mak	/^CC     = c89$/;"	m
+CFLAGS	examples/bistree/bistree.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/bit/bit.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/bitree/bitree.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/chtbl/chtbl.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/clist/clist.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/clist/page.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/compress/compress.mak	/^CFLAGS = -D_HPUX_SOURCE$/;"	m
+CFLAGS	examples/dlist/dlist.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/encrypt/cbc.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/encrypt/encrypt.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/geometry/geodist.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/geometry/geometry.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/graph/bfs.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/graph/dfs.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/graph/graph.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/graphalg/graphalg.mak	/^CFLAGS = -D_HPUX_SOURCE$/;"	m
+CFLAGS	examples/graphalg/route.mak	/^CFLAGS = -D_HPUX_SOURCE$/;"	m
+CFLAGS	examples/heap/heap.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/list/makefile	/^CFLAGS =$/;"	m
+CFLAGS	examples/nummeths/nummeths.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/ohtbl/ohtbl.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/pqueue/pqueue.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/queue/queue.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/recurse/fact.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/recurse/factor.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/search/search.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/search/spell.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/set/cover.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/set/set.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/sort/directls.mak	/^CFLAGS = -D_HPUX_SOURCE$/;"	m
+CFLAGS	examples/sort/sort.mak	/^CFLAGS =$/;"	m
+CFLAGS	examples/stack/stack.mak	/^CFLAGS =$/;"	m
+CHTBL_H	include/chtbl.h	8;"	d
+CHTbl	include/chtbl.h	/^} CHTbl;$/;"	t	typeref:struct:CHTbl_
+CHTbl_	include/chtbl.h	/^typedef struct CHTbl_ {$/;"	s
+CHTbl_::buckets	include/chtbl.h	/^int                buckets;$/;"	m	struct:CHTbl_	access:public
+CHTbl_::destroy	include/chtbl.h	/^void               (*destroy)(void *data);$/;"	m	struct:CHTbl_	access:public
+CHTbl_::h	include/chtbl.h	/^int                (*h)(const void *key);$/;"	m	struct:CHTbl_	access:public
+CHTbl_::match	include/chtbl.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:CHTbl_	access:public
+CHTbl_::size	include/chtbl.h	/^int                size;$/;"	m	struct:CHTbl_	access:public
+CHTbl_::table	include/chtbl.h	/^List               *table;$/;"	m	struct:CHTbl_	access:public
+CLIST_H	include/clist.h	8;"	d
+CList	include/clist.h	/^} CList;$/;"	t	typeref:struct:CList_
+CListElmt	include/clist.h	/^} CListElmt;$/;"	t	typeref:struct:CListElmt_
+CListElmt_	include/clist.h	/^typedef struct CListElmt_ {$/;"	s
+CListElmt_::data	include/clist.h	/^void               *data;$/;"	m	struct:CListElmt_	access:public
+CListElmt_::next	include/clist.h	/^struct CListElmt_  *next;$/;"	m	struct:CListElmt_	typeref:struct:CListElmt_::CListElmt_	access:public
+CList_	include/clist.h	/^typedef struct CList_ {$/;"	s
+CList_::destroy	include/clist.h	/^void               (*destroy)(void *data);$/;"	m	struct:CList_	access:public
+CList_::head	include/clist.h	/^CListElmt          *head;$/;"	m	struct:CList_	access:public
+CList_::match	include/clist.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:CList_	access:public
+CList_::size	include/clist.h	/^int                size;$/;"	m	struct:CList_	access:public
+COMPRESS_H	include/compress.h	8;"	d
+COVER_H	include/cover.h	8;"	d
+CVXPCT	examples/geometry/ex-1.c	23;"	d	file:
+CoordData	examples/graphalg/ex-1.c	/^} CoordData;$/;"	t	typeref:struct:CoordData_	file:
+CoordData_	examples/graphalg/ex-1.c	/^typedef struct CoordData_ {$/;"	s	file:
+CoordData_::vertex	examples/graphalg/ex-1.c	/^char               vertex[STRSIZ];$/;"	m	struct:CoordData_	file:	access:public
+CoordData_::x	examples/graphalg/ex-1.c	/^double             x,$/;"	m	struct:CoordData_	file:	access:public
+CoordData_::y	examples/graphalg/ex-1.c	/^                   y;$/;"	m	struct:CoordData_	file:	access:public
+CvxTestP	examples/geometry/ex-1.c	/^static Point CvxTestP[CVXPCT] = {$/;"	v	file:
+DATSIZ	examples/compress/ex-1.c	21;"	d	file:
+DEGTORAD	include/geometry.h	37;"	d
+DFS_H	include/dfs.h	8;"	d
+DIRECTLS_H	include/directls.h	8;"	d
+DLIST_H	include/dlist.h	8;"	d
+DList	include/dlist.h	/^} DList;$/;"	t	typeref:struct:DList_
+DListElmt	include/dlist.h	/^} DListElmt;$/;"	t	typeref:struct:DListElmt_
+DListElmt_	include/dlist.h	/^typedef struct DListElmt_ {$/;"	s
+DListElmt_::data	include/dlist.h	/^void               *data;$/;"	m	struct:DListElmt_	access:public
+DListElmt_::next	include/dlist.h	/^struct DListElmt_  *next;$/;"	m	struct:DListElmt_	typeref:struct:DListElmt_::DListElmt_	access:public
+DListElmt_::prev	include/dlist.h	/^struct DListElmt_  *prev;$/;"	m	struct:DListElmt_	typeref:struct:DListElmt_::DListElmt_	access:public
+DList_	include/dlist.h	/^typedef struct DList_ {$/;"	s
+DList_::destroy	include/dlist.h	/^void               (*destroy)(void *data);$/;"	m	struct:DList_	access:public
+DList_::head	include/dlist.h	/^DListElmt          *head;$/;"	m	struct:DList_	access:public
+DList_::match	include/dlist.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:DList_	access:public
+DList_::size	include/dlist.h	/^int                size;$/;"	m	struct:DList_	access:public
+DList_::tail	include/dlist.h	/^DListElmt          *tail;$/;"	m	struct:DList_	access:public
+DesEorD	source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	t	typeref:enum:DesEorD_	file:
+DesEorD_	source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	g	file:
+DesExpansion	source/des.c	/^static const int DesExpansion[48] = {$/;"	v	file:
+DesFinal	source/des.c	/^static const int DesFinal[64] = {$/;"	v	file:
+DesInitial	source/des.c	/^static const int DesInitial[64] = {$/;"	v	file:
+DesPbox	source/des.c	/^static const int DesPbox[32] = {$/;"	v	file:
+DesPermuted	source/des.c	/^static const int DesPermuted[48] = {$/;"	v	file:
+DesRotations	source/des.c	/^static const int DesRotations[16] = {$/;"	v	file:
+DesSbox	source/des.c	/^static const int DesSbox[8][4][16] = {$/;"	v	file:
+DesTransform	source/des.c	/^static const int DesTransform[56] = {$/;"	v	file:
+DfsVertex	include/dfs.h	/^} DfsVertex;$/;"	t	typeref:struct:DfsVertex_
+DfsVertex_	include/dfs.h	/^typedef struct DfsVertex_ {$/;"	s
+DfsVertex_::color	include/dfs.h	/^VertexColor        color;$/;"	m	struct:DfsVertex_	access:public
+DfsVertex_::data	include/dfs.h	/^void               *data;$/;"	m	struct:DfsVertex_	access:public
+Directory	include/directls.h	/^} Directory;$/;"	t	typeref:struct:Directory_
+Directory_	include/directls.h	/^typedef struct Directory_ {$/;"	s
+Directory_::name	include/directls.h	/^char               name[MAXNAMLEN + 1];$/;"	m	struct:Directory_	access:public
+EARTH_RADIUS	include/geodist.h	16;"	d
+ENCRYPT_H	include/encrypt.h	8;"	d
+EVENTS_H	include/events.h	8;"	d
+EVENT_H	include/event.h	8;"	d
+EXE	examples/bistree/bistree.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/bit/bit.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/bitree/bitree.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/chtbl/chtbl.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/clist/clist.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/clist/page.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/compress/compress.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/dlist/dlist.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/encrypt/cbc.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/encrypt/encrypt.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/geometry/geodist.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/geometry/geometry.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/graph/bfs.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/graph/dfs.mak	/^EXE    = ex-3.exe$/;"	m
+EXE	examples/graph/graph.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/graphalg/graphalg.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/graphalg/route.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/heap/heap.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/list/makefile	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/nummeths/nummeths.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/ohtbl/ohtbl.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/pqueue/pqueue.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/queue/queue.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/recurse/fact.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/recurse/factor.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/search/search.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/search/spell.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/set/cover.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/set/set.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/sort/directls.mak	/^EXE    = ex-2.exe$/;"	m
+EXE	examples/sort/sort.mak	/^EXE    = ex-1.exe$/;"	m
+EXE	examples/stack/stack.mak	/^EXE    = ex-1.exe$/;"	m
+EdgeData	examples/graphalg/ex-1.c	/^} EdgeData;$/;"	t	typeref:struct:EdgeData_	file:
+EdgeData	examples/graphalg/ex-2.c	/^} EdgeData;$/;"	t	typeref:struct:EdgeData_	file:
+EdgeData_	examples/graphalg/ex-1.c	/^typedef struct EdgeData_ {$/;"	s	file:
+EdgeData_	examples/graphalg/ex-2.c	/^typedef struct EdgeData_ {$/;"	s	file:
+EdgeData_::vertex1	examples/graphalg/ex-1.c	/^char               vertex1[STRSIZ],$/;"	m	struct:EdgeData_	file:	access:public
+EdgeData_::vertex1	examples/graphalg/ex-2.c	/^char               vertex1[STRSIZ],$/;"	m	struct:EdgeData_	file:	access:public
+EdgeData_::vertex2	examples/graphalg/ex-1.c	/^                   vertex2[STRSIZ];$/;"	m	struct:EdgeData_	file:	access:public
+EdgeData_::vertex2	examples/graphalg/ex-2.c	/^                   vertex2[STRSIZ];$/;"	m	struct:EdgeData_	file:	access:public
+EdgeData_::weight	examples/graphalg/ex-1.c	/^double             weight;$/;"	m	struct:EdgeData_	file:	access:public
+EdgeData_::weight	examples/graphalg/ex-2.c	/^double             weight;$/;"	m	struct:EdgeData_	file:	access:public
+Event	include/event.h	/^} Event;$/;"	t	typeref:struct:Event_
+Event_	include/event.h	/^typedef struct Event_ {$/;"	s
+Event_::type	include/event.h	/^int                type;$/;"	m	struct:Event_	access:public
+FACTOR_H	include/factor.h	8;"	d
+FACTTAIL_H	include/facttail.h	8;"	d
+FACT_H	include/fact.h	8;"	d
+FRAMES_H	include/frames.h	8;"	d
+GEODIST_H	include/geodist.h	8;"	d
+GEOMETRY_H	include/geometry.h	8;"	d
+GRAPHALG_H	include/graphalg.h	8;"	d
+GRAPH_H	include/graph.h	8;"	d
+Graph	include/graph.h	/^} Graph;$/;"	t	typeref:struct:Graph_
+Graph_	include/graph.h	/^typedef struct Graph_ {$/;"	s
+Graph_::adjlists	include/graph.h	/^List               adjlists;$/;"	m	struct:Graph_	access:public
+Graph_::destroy	include/graph.h	/^void               (*destroy)(void *data);$/;"	m	struct:Graph_	access:public
+Graph_::ecount	include/graph.h	/^int                ecount;$/;"	m	struct:Graph_	access:public
+Graph_::match	include/graph.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:Graph_	access:public
+Graph_::vcount	include/graph.h	/^int                vcount;$/;"	m	struct:Graph_	access:public
+HASHPJW_H	include/hashpjw.h	8;"	d
+HEAP_H	include/heap.h	8;"	d
+Heap	include/heap.h	/^} Heap;$/;"	t	typeref:struct:Heap_
+Heap_	include/heap.h	/^typedef struct Heap_ {$/;"	s
+Heap_::compare	include/heap.h	/^int                (*compare)(const void *key1, const void *key2);$/;"	m	struct:Heap_	access:public
+Heap_::destroy	include/heap.h	/^void               (*destroy)(void *data);$/;"	m	struct:Heap_	access:public
+Heap_::size	include/heap.h	/^int                size;$/;"	m	struct:Heap_	access:public
+Heap_::tree	include/heap.h	/^void               **tree;$/;"	m	struct:Heap_	access:public
+HuffCode	include/compress.h	/^} HuffCode;$/;"	t	typeref:struct:HuffCode_
+HuffCode_	include/compress.h	/^typedef struct HuffCode_ {$/;"	s
+HuffCode_::code	include/compress.h	/^unsigned short     code;$/;"	m	struct:HuffCode_	access:public
+HuffCode_::size	include/compress.h	/^unsigned char      size;$/;"	m	struct:HuffCode_	access:public
+HuffCode_::used	include/compress.h	/^unsigned char      used;$/;"	m	struct:HuffCode_	access:public
+HuffNode	include/compress.h	/^} HuffNode;$/;"	t	typeref:struct:HuffNode_
+HuffNode_	include/compress.h	/^typedef struct HuffNode_ {$/;"	s
+HuffNode_::freq	include/compress.h	/^int                freq;$/;"	m	struct:HuffNode_	access:public
+HuffNode_::symbol	include/compress.h	/^unsigned char      symbol;$/;"	m	struct:HuffNode_	access:public
+Huge	include/encrypt.h	/^typedef unsigned long Huge;$/;"	t
+INCDRS	examples/bistree/bistree.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/bit/bit.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/bitree/bitree.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/chtbl/chtbl.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/clist/clist.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/clist/page.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/compress/compress.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/dlist/dlist.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/encrypt/cbc.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/encrypt/encrypt.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/geometry/geodist.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/geometry/geometry.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/graph/bfs.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/graph/dfs.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/graph/graph.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/graphalg/graphalg.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/graphalg/route.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/heap/heap.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/list/makefile	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/nummeths/nummeths.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/ohtbl/ohtbl.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/pqueue/pqueue.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/queue/queue.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/recurse/fact.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/recurse/factor.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/search/search.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/search/spell.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/set/cover.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/set/set.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/sort/directls.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/sort/sort.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+INCDRS	examples/stack/stack.mak	/^INCDRS = -I$(ALGOWC_TOPDIR)\/include$/;"	m
+KSet	include/cover.h	/^} KSet;$/;"	t	typeref:struct:KSet_
+KSet_	include/cover.h	/^typedef struct KSet_ {$/;"	s
+KSet_::key	include/cover.h	/^void               *key;$/;"	m	struct:KSet_	access:public
+KSet_::set	include/cover.h	/^Set                set;$/;"	m	struct:KSet_	access:public
+LEX_H	include/lex.h	8;"	d
+LFLAGS	examples/bistree/bistree.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/bit/bit.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/bitree/bitree.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/chtbl/chtbl.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/clist/clist.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/clist/page.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/compress/compress.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/dlist/dlist.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/encrypt/cbc.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/encrypt/encrypt.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/geometry/geodist.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/geometry/geometry.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/graph/bfs.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/graph/dfs.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/graph/graph.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/graphalg/graphalg.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/graphalg/route.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/heap/heap.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/list/makefile	/^LFLAGS =$/;"	m
+LFLAGS	examples/nummeths/nummeths.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/ohtbl/ohtbl.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/pqueue/pqueue.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/queue/queue.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/recurse/fact.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/recurse/factor.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/search/search.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/search/spell.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/set/cover.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/set/set.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/sort/directls.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/sort/sort.mak	/^LFLAGS =$/;"	m
+LFLAGS	examples/stack/stack.mak	/^LFLAGS =$/;"	m
+LIBDRS	examples/bistree/bistree.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/bit/bit.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/bitree/bitree.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/chtbl/chtbl.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/clist/clist.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/clist/page.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/compress/compress.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/dlist/dlist.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/encrypt/cbc.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/encrypt/encrypt.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/geometry/geodist.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/geometry/geometry.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/graph/bfs.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/graph/dfs.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/graph/graph.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/graphalg/graphalg.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/graphalg/route.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/heap/heap.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/list/makefile	/^LIBDRS =$/;"	m
+LIBDRS	examples/nummeths/nummeths.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/ohtbl/ohtbl.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/pqueue/pqueue.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/queue/queue.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/recurse/fact.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/recurse/factor.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/search/search.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/search/spell.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/set/cover.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/set/set.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/sort/directls.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/sort/sort.mak	/^LIBDRS =$/;"	m
+LIBDRS	examples/stack/stack.mak	/^LIBDRS =$/;"	m
+LIBFLS	examples/bistree/bistree.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/bit/bit.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/bitree/bitree.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/chtbl/chtbl.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/clist/clist.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/clist/page.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/compress/compress.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/dlist/dlist.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/encrypt/cbc.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/encrypt/encrypt.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/geometry/geodist.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/geometry/geometry.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/graph/bfs.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/graph/dfs.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/graph/graph.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/graphalg/graphalg.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/graphalg/route.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/heap/heap.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/list/makefile	/^LIBFLS =$/;"	m
+LIBFLS	examples/nummeths/nummeths.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/ohtbl/ohtbl.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/pqueue/pqueue.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/queue/queue.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/recurse/fact.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/recurse/factor.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/search/search.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/search/spell.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/set/cover.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/set/set.mak	/^LIBFLS =$/;"	m
+LIBFLS	examples/sort/directls.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/sort/sort.mak	/^LIBFLS = -lm$/;"	m
+LIBFLS	examples/stack/stack.mak	/^LIBFLS =$/;"	m
+LIST_H	include/list.h	8;"	d
+LL	examples/bistree/bistree.mak	/^LL     = c89$/;"	m
+LL	examples/bit/bit.mak	/^LL     = c89$/;"	m
+LL	examples/bitree/bitree.mak	/^LL     = c89$/;"	m
+LL	examples/chtbl/chtbl.mak	/^LL     = c89$/;"	m
+LL	examples/clist/clist.mak	/^LL     = c89$/;"	m
+LL	examples/clist/page.mak	/^LL     = c89$/;"	m
+LL	examples/compress/compress.mak	/^LL     = c89$/;"	m
+LL	examples/dlist/dlist.mak	/^LL     = c89$/;"	m
+LL	examples/encrypt/cbc.mak	/^LL     = c89$/;"	m
+LL	examples/encrypt/encrypt.mak	/^LL     = c89$/;"	m
+LL	examples/geometry/geodist.mak	/^LL     = c89$/;"	m
+LL	examples/geometry/geometry.mak	/^LL     = c89$/;"	m
+LL	examples/graph/bfs.mak	/^LL     = c89$/;"	m
+LL	examples/graph/dfs.mak	/^LL     = c89$/;"	m
+LL	examples/graph/graph.mak	/^LL     = c89$/;"	m
+LL	examples/graphalg/graphalg.mak	/^LL     = c89$/;"	m
+LL	examples/graphalg/route.mak	/^LL     = c89$/;"	m
+LL	examples/heap/heap.mak	/^LL     = c89$/;"	m
+LL	examples/list/makefile	/^LL     = c89$/;"	m
+LL	examples/nummeths/nummeths.mak	/^LL     = c89$/;"	m
+LL	examples/ohtbl/ohtbl.mak	/^LL     = c89$/;"	m
+LL	examples/pqueue/pqueue.mak	/^LL     = c89$/;"	m
+LL	examples/queue/queue.mak	/^LL     = c89$/;"	m
+LL	examples/recurse/fact.mak	/^LL     = c89$/;"	m
+LL	examples/recurse/factor.mak	/^LL     = c89$/;"	m
+LL	examples/search/search.mak	/^LL     = c89$/;"	m
+LL	examples/search/spell.mak	/^LL     = c89$/;"	m
+LL	examples/set/cover.mak	/^LL     = c89$/;"	m
+LL	examples/set/set.mak	/^LL     = c89$/;"	m
+LL	examples/sort/directls.mak	/^LL     = c89$/;"	m
+LL	examples/sort/sort.mak	/^LL     = c89$/;"	m
+LL	examples/stack/stack.mak	/^LL     = c89$/;"	m
+LZ77_BUFFER_SIZE	include/compress.h	59;"	d
+LZ77_BUFLEN_BITS	include/compress.h	47;"	d
+LZ77_NEXT_BITS	include/compress.h	48;"	d
+LZ77_PHRASE_BITS	include/compress.h	67;"	d
+LZ77_SYMBOL_BITS	include/compress.h	76;"	d
+LZ77_TYPE_BITS	include/compress.h	45;"	d
+LZ77_WINDOW_SIZE	include/compress.h	58;"	d
+LZ77_WINOFF_BITS	include/compress.h	46;"	d
+List	include/list.h	/^} List;$/;"	t	typeref:struct:List_
+ListElmt	include/list.h	/^} ListElmt;$/;"	t	typeref:struct:ListElmt_
+ListElmt_	include/list.h	/^typedef struct ListElmt_ {$/;"	s
+ListElmt_::data	include/list.h	/^void               *data;$/;"	m	struct:ListElmt_	access:public
+ListElmt_::next	include/list.h	/^struct ListElmt_   *next;$/;"	m	struct:ListElmt_	typeref:struct:ListElmt_::ListElmt_	access:public
+List_	include/list.h	/^typedef struct List_ {$/;"	s
+List_::destroy	include/list.h	/^void               (*destroy)(void *data);$/;"	m	struct:List_	access:public
+List_::head	include/list.h	/^ListElmt           *head;$/;"	m	struct:List_	access:public
+List_::match	include/list.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:List_	access:public
+List_::size	include/list.h	/^int                size;$/;"	m	struct:List_	access:public
+List_::tail	include/list.h	/^ListElmt           *tail;$/;"	m	struct:List_	access:public
+MAKNAM	examples/bistree/bistree.mak	/^MAKNAM = bistree.mak$/;"	m
+MAKNAM	examples/bit/bit.mak	/^MAKNAM = bit.mak$/;"	m
+MAKNAM	examples/bitree/bitree.mak	/^MAKNAM = bitree.mak$/;"	m
+MAKNAM	examples/chtbl/chtbl.mak	/^MAKNAM = chtbl.mak$/;"	m
+MAKNAM	examples/clist/clist.mak	/^MAKNAM = clist.mak$/;"	m
+MAKNAM	examples/clist/page.mak	/^MAKNAM = page.mak$/;"	m
+MAKNAM	examples/compress/compress.mak	/^MAKNAM = compress.mak$/;"	m
+MAKNAM	examples/dlist/dlist.mak	/^MAKNAM = dlist.mak$/;"	m
+MAKNAM	examples/encrypt/cbc.mak	/^MAKNAM = cbc.mak$/;"	m
+MAKNAM	examples/encrypt/encrypt.mak	/^MAKNAM = encrypt.mak$/;"	m
+MAKNAM	examples/geometry/geodist.mak	/^MAKNAM = geodist.mak$/;"	m
+MAKNAM	examples/geometry/geometry.mak	/^MAKNAM = geometry.mak$/;"	m
+MAKNAM	examples/graph/bfs.mak	/^MAKNAM = bfs.mak$/;"	m
+MAKNAM	examples/graph/dfs.mak	/^MAKNAM = dfs.mak$/;"	m
+MAKNAM	examples/graph/graph.mak	/^MAKNAM = graph.mak$/;"	m
+MAKNAM	examples/graphalg/graphalg.mak	/^MAKNAM = graphalg.mak$/;"	m
+MAKNAM	examples/graphalg/route.mak	/^MAKNAM = route.mak$/;"	m
+MAKNAM	examples/heap/heap.mak	/^MAKNAM = heap.mak$/;"	m
+MAKNAM	examples/list/makefile	/^MAKNAM = list.mak$/;"	m
+MAKNAM	examples/nummeths/nummeths.mak	/^MAKNAM = nummeths.mak$/;"	m
+MAKNAM	examples/ohtbl/ohtbl.mak	/^MAKNAM = ohtbl.mak$/;"	m
+MAKNAM	examples/pqueue/pqueue.mak	/^MAKNAM = pqueue.mak$/;"	m
+MAKNAM	examples/queue/queue.mak	/^MAKNAM = queue.mak$/;"	m
+MAKNAM	examples/recurse/fact.mak	/^MAKNAM = fact.mak$/;"	m
+MAKNAM	examples/recurse/factor.mak	/^MAKNAM = factor.mak$/;"	m
+MAKNAM	examples/search/search.mak	/^MAKNAM = search.mak$/;"	m
+MAKNAM	examples/search/spell.mak	/^MAKNAM = spell.mak$/;"	m
+MAKNAM	examples/set/cover.mak	/^MAKNAM = cover.mak$/;"	m
+MAKNAM	examples/set/set.mak	/^MAKNAM = set.mak$/;"	m
+MAKNAM	examples/sort/directls.mak	/^MAKNAM = directls.mak$/;"	m
+MAKNAM	examples/sort/sort.mak	/^MAKNAM = sort.mak$/;"	m
+MAKNAM	examples/stack/stack.mak	/^MAKNAM = stack.mak$/;"	m
+MAX	include/geometry.h	29;"	d
+MIN	include/geometry.h	28;"	d
+MSTECT	examples/graphalg/ex-1.c	65;"	d	file:
+MSTVCT	examples/graphalg/ex-1.c	64;"	d	file:
+MstTestE	examples/graphalg/ex-1.c	/^static EdgeData MstTestE[MSTECT] = {$/;"	v	file:
+MstTestV	examples/graphalg/ex-1.c	/^static char MstTestV[MSTVCT][STRSIZ] = {$/;"	v	file:
+MstVertex	include/graphalg.h	/^} MstVertex;$/;"	t	typeref:struct:MstVertex_
+MstVertex_	include/graphalg.h	/^typedef struct MstVertex_ {$/;"	s
+MstVertex_::color	include/graphalg.h	/^VertexColor        color;$/;"	m	struct:MstVertex_	access:public
+MstVertex_::data	include/graphalg.h	/^void               *data;$/;"	m	struct:MstVertex_	access:public
+MstVertex_::key	include/graphalg.h	/^double             key;$/;"	m	struct:MstVertex_	access:public
+MstVertex_::parent	include/graphalg.h	/^struct MstVertex_  *parent;$/;"	m	struct:MstVertex_	typeref:struct:MstVertex_::MstVertex_	access:public
+MstVertex_::weight	include/graphalg.h	/^double             weight;$/;"	m	struct:MstVertex_	access:public
+NUMMETHS_H	include/nummeths.h	8;"	d
+OBJFLS	examples/bistree/bistree.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/bit/bit.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/bitree/bitree.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/chtbl/chtbl.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/clist/clist.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/clist/page.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/compress/compress.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/dlist/dlist.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/encrypt/cbc.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/encrypt/encrypt.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/geometry/geodist.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/geometry/geometry.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/graph/bfs.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/graph/dfs.mak	/^OBJFLS = ex-3.o\\$/;"	m
+OBJFLS	examples/graph/graph.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/graphalg/graphalg.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/graphalg/route.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/heap/heap.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/list/makefile	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/nummeths/nummeths.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/ohtbl/ohtbl.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/pqueue/pqueue.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/queue/queue.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/recurse/fact.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/recurse/factor.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/search/search.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/search/spell.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/set/cover.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/set/set.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/sort/directls.mak	/^OBJFLS = ex-2.o\\$/;"	m
+OBJFLS	examples/sort/sort.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OBJFLS	examples/stack/stack.mak	/^OBJFLS = ex-1.o\\$/;"	m
+OHTBL_H	include/ohtbl.h	8;"	d
+OHTbl	include/ohtbl.h	/^} OHTbl;$/;"	t	typeref:struct:OHTbl_
+OHTbl_	include/ohtbl.h	/^typedef struct OHTbl_ {$/;"	s
+OHTbl_::destroy	include/ohtbl.h	/^void               (*destroy)(void *data);$/;"	m	struct:OHTbl_	access:public
+OHTbl_::h1	include/ohtbl.h	/^int                (*h1)(const void *key);$/;"	m	struct:OHTbl_	access:public
+OHTbl_::h2	include/ohtbl.h	/^int                (*h2)(const void *key);$/;"	m	struct:OHTbl_	access:public
+OHTbl_::match	include/ohtbl.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:OHTbl_	access:public
+OHTbl_::positions	include/ohtbl.h	/^int                positions;$/;"	m	struct:OHTbl_	access:public
+OHTbl_::size	include/ohtbl.h	/^int                size;$/;"	m	struct:OHTbl_	access:public
+OHTbl_::table	include/ohtbl.h	/^void               **table;$/;"	m	struct:OHTbl_	access:public
+OHTbl_::vacated	include/ohtbl.h	/^void               *vacated;$/;"	m	struct:OHTbl_	access:public
+PAGE_H	include/page.h	8;"	d
+PARCELS_H	include/parcels.h	8;"	d
+PARCEL_H	include/parcel.h	8;"	d
+PI	include/geometry.h	19;"	d
+PLAYER_COUNT	examples/set/ex-2.c	25;"	d	file:
+PQUEUE_H	include/pqueue.h	8;"	d
+PQueue	include/pqueue.h	/^typedef Heap PQueue;$/;"	t
+PRIME_TBLSIZ	include/hashpjw.h	16;"	d
+PTHECT	examples/graphalg/ex-1.c	113;"	d	file:
+PTHECT	examples/graphalg/ex-2.c	52;"	d	file:
+PTHVCT	examples/graphalg/ex-1.c	112;"	d	file:
+PTHVCT	examples/graphalg/ex-2.c	51;"	d	file:
+Page	include/page.h	/^} Page;$/;"	t	typeref:struct:Page_
+Page_	include/page.h	/^typedef struct Page_ {$/;"	s
+Page_::number	include/page.h	/^int                number;$/;"	m	struct:Page_	access:public
+Page_::reference	include/page.h	/^int                reference;$/;"	m	struct:Page_	access:public
+Parcel	include/parcel.h	/^} Parcel;$/;"	t	typeref:struct:Parcel_
+Parcel_	include/parcel.h	/^typedef struct Parcel_ {$/;"	s
+Parcel_::priority	include/parcel.h	/^int                priority;$/;"	m	struct:Parcel_	access:public
+PathVertex	include/graphalg.h	/^} PathVertex;$/;"	t	typeref:struct:PathVertex_
+PathVertex_	include/graphalg.h	/^typedef struct PathVertex_ {$/;"	s
+PathVertex_::color	include/graphalg.h	/^VertexColor        color;$/;"	m	struct:PathVertex_	access:public
+PathVertex_::d	include/graphalg.h	/^double             d;$/;"	m	struct:PathVertex_	access:public
+PathVertex_::data	include/graphalg.h	/^void               *data;$/;"	m	struct:PathVertex_	access:public
+PathVertex_::parent	include/graphalg.h	/^struct PathVertex_ *parent;$/;"	m	struct:PathVertex_	typeref:struct:PathVertex_::PathVertex_	access:public
+PathVertex_::weight	include/graphalg.h	/^double             weight;$/;"	m	struct:PathVertex_	access:public
+Point	include/geometry.h	/^} Point;$/;"	t	typeref:struct:Point_
+Point_	include/geometry.h	/^typedef struct Point_ {$/;"	s
+Point_::x	include/geometry.h	/^double             x,$/;"	m	struct:Point_	access:public
+Point_::y	include/geometry.h	/^                   y,$/;"	m	struct:Point_	access:public
+Point_::z	include/geometry.h	/^                   z;$/;"	m	struct:Point_	access:public
+PthTestE	examples/graphalg/ex-1.c	/^static EdgeData PthTestE[PTHECT] = {$/;"	v	file:
+PthTestE	examples/graphalg/ex-2.c	/^static EdgeData PthTestE[PTHECT] = {$/;"	v	file:
+PthTestV	examples/graphalg/ex-1.c	/^static char PthTestV[PTHVCT][STRSIZ] = {$/;"	v	file:
+PthTestV	examples/graphalg/ex-2.c	/^static char PthTestV[PTHVCT][STRSIZ] = {$/;"	v	file:
+QUEUE_H	include/queue.h	8;"	d
+Queue	include/queue.h	/^typedef List Queue;$/;"	t
+RADTODEG	include/geometry.h	38;"	d
+ROUTE_H	include/route.h	8;"	d
+RsaPriKey	include/encrypt.h	/^} RsaPriKey;$/;"	t	typeref:struct:RsaPriKey_
+RsaPriKey_	include/encrypt.h	/^typedef struct RsaPriKey_ {$/;"	s
+RsaPriKey_::d	include/encrypt.h	/^Huge               d;$/;"	m	struct:RsaPriKey_	access:public
+RsaPriKey_::n	include/encrypt.h	/^Huge               n;$/;"	m	struct:RsaPriKey_	access:public
+RsaPubKey	include/encrypt.h	/^} RsaPubKey;$/;"	t	typeref:struct:RsaPubKey_
+RsaPubKey_	include/encrypt.h	/^typedef struct RsaPubKey_ {$/;"	s
+RsaPubKey_::e	include/encrypt.h	/^Huge               e;$/;"	m	struct:RsaPubKey_	access:public
+RsaPubKey_::n	include/encrypt.h	/^Huge               n;$/;"	m	struct:RsaPubKey_	access:public
+SEARCH_H	include/search.h	8;"	d
+SET_H	include/set.h	8;"	d
+SIZE	examples/nummeths/ex-1.c	21;"	d	file:
+SKILLS_COUNT	examples/set/ex-2.c	24;"	d	file:
+SORT_H	include/sort.h	8;"	d
+SPELL_H	include/spell.h	8;"	d
+SPELL_SIZE	include/spell.h	16;"	d
+SPoint	include/geometry.h	/^} SPoint;$/;"	t	typeref:struct:SPoint_
+SPoint_	include/geometry.h	/^typedef struct SPoint_ {$/;"	s
+SPoint_::phi	include/geometry.h	/^                   phi;$/;"	m	struct:SPoint_	access:public
+SPoint_::rho	include/geometry.h	/^double             rho,$/;"	m	struct:SPoint_	access:public
+SPoint_::theta	include/geometry.h	/^                   theta,$/;"	m	struct:SPoint_	access:public
+SRCFLS	examples/bistree/bistree.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/bit/bit.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/bitree/bitree.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/chtbl/chtbl.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/clist/clist.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/clist/page.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/compress/compress.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/dlist/dlist.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/encrypt/cbc.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/encrypt/encrypt.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/geometry/geodist.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/geometry/geometry.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/graph/bfs.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/graph/dfs.mak	/^SRCFLS = ex-3.c\\$/;"	m
+SRCFLS	examples/graph/graph.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/graphalg/graphalg.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/graphalg/route.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/heap/heap.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/list/makefile	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/nummeths/nummeths.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/ohtbl/ohtbl.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/pqueue/pqueue.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/queue/queue.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/recurse/fact.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/recurse/factor.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/search/search.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/search/spell.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/set/cover.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/set/set.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/sort/directls.mak	/^SRCFLS = ex-2.c\\$/;"	m
+SRCFLS	examples/sort/sort.mak	/^SRCFLS = ex-1.c\\$/;"	m
+SRCFLS	examples/stack/stack.mak	/^SRCFLS = ex-1.c\\$/;"	m
+STACK_H	include/stack.h	8;"	d
+STRSIZ	examples/bistree/ex-1.c	22;"	d	file:
+STRSIZ	examples/graph/ex-1.c	24;"	d	file:
+STRSIZ	examples/graph/ex-2.c	25;"	d	file:
+STRSIZ	examples/graph/ex-3.c	25;"	d	file:
+STRSIZ	examples/graphalg/ex-1.c	26;"	d	file:
+STRSIZ	examples/graphalg/ex-2.c	28;"	d	file:
+STRSIZ	examples/search/ex-1.c	23;"	d	file:
+STRSIZ	examples/sort/ex-1.c	21;"	d	file:
+SYMBOL_H	include/symbol.h	8;"	d
+Set	include/set.h	/^typedef List Set;$/;"	t
+Stack	include/stack.h	/^typedef List Stack;$/;"	t
+Symbol	include/symbol.h	/^} Symbol;$/;"	t	typeref:struct:Symbol_
+Symbol_	include/symbol.h	/^typedef struct Symbol_ {$/;"	s
+Symbol_::lexeme	include/symbol.h	/^char               *lexeme;$/;"	m	struct:Symbol_	access:public
+Symbol_::token	include/symbol.h	/^Token              token;$/;"	m	struct:Symbol_	access:public
+TBLSIZ	examples/chtbl/ex-1.c	21;"	d	file:
+TBLSIZ	examples/ohtbl/ex-1.c	21;"	d	file:
+TRANSFER_H	include/transfer.h	8;"	d
+TRAVERSE_H	include/traverse.h	8;"	d
+TSPVCT	examples/graphalg/ex-1.c	143;"	d	file:
+TXTSIZ	examples/encrypt/ex-2.c	21;"	d	file:
+Token	include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	t	typeref:enum:Token_
+Token_	include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	g
+TspTestV	examples/graphalg/ex-1.c	/^static CoordData TspTestV[TSPVCT] = {$/;"	v	file:
+TspVertex	include/graphalg.h	/^} TspVertex;$/;"	t	typeref:struct:TspVertex_
+TspVertex_	include/graphalg.h	/^typedef struct TspVertex_ {$/;"	s
+TspVertex_::color	include/graphalg.h	/^VertexColor        color;$/;"	m	struct:TspVertex_	access:public
+TspVertex_::data	include/graphalg.h	/^void               *data;$/;"	m	struct:TspVertex_	access:public
+TspVertex_::x	include/graphalg.h	/^double             x,$/;"	m	struct:TspVertex_	access:public
+TspVertex_::y	include/graphalg.h	/^                   y;$/;"	m	struct:TspVertex_	access:public
+VertexColor	include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	t	typeref:enum:VertexColor_
+VertexColor_	include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	g
+Words	examples/bistree/ex-1.c	/^   dip} Words;$/;"	t	typeref:enum:Words_	file:
+Words	examples/search/ex-1.c	/^   dip} Words;$/;"	t	typeref:enum:Words_	file:
+Words_	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	g	file:
+Words_	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	g	file:
+adjacent	include/graph.h	/^Set                adjacent;$/;"	m	struct:AdjList_	access:public
+adjlists	include/graph.h	/^List               adjlists;$/;"	m	struct:Graph_	access:public
+alloc_frame	include/frames.h	/^int alloc_frame(List *frames);$/;"	p	signature:(List *frames)
+alloc_frame	source/frames.c	/^int alloc_frame(List *frames) {$/;"	f	signature:(List *frames)
+arclen	include/geometry.h	/^void arclen(SPoint p1, SPoint p2, double *length);$/;"	p	signature:(SPoint p1, SPoint p2, double *length)
+arclen	source/arclen.c	/^void arclen(SPoint p1, SPoint p2, double *length) {$/;"	f	signature:(SPoint p1, SPoint p2, double *length)
+bat	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+bat	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+bfs	include/bfs.h	/^int bfs(Graph *graph, BfsVertex *start, List *hops);$/;"	p	signature:(Graph *graph, BfsVertex *start, List *hops)
+bfs	source/bfs.c	/^int bfs(Graph *graph, BfsVertex *start, List *hops) {$/;"	f	signature:(Graph *graph, BfsVertex *start, List *hops)
+bisearch	include/search.h	/^int bisearch(void *sorted, const void *target, int size, int esize, int$/;"	p	signature:(void *sorted, const void *target, int size, int esize, int (*compare)(const void *key1, const void *key2))
+bisearch	source/bisearch.c	/^int bisearch(void *sorted, const void *target, int size, int esize, int$/;"	f	signature:(void *sorted, const void *target, int size, int esize, int (*compare)(const void *key1, const void *key2))
+bistree_destroy	include/bistree.h	/^void bistree_destroy(BisTree *tree);$/;"	p	signature:(BisTree *tree)
+bistree_destroy	source/bistree.c	/^void bistree_destroy(BisTree *tree) {$/;"	f	signature:(BisTree *tree)
+bistree_init	include/bistree.h	/^void bistree_init(BisTree *tree, int (*compare)(const void *key1, const void$/;"	p	signature:(BisTree *tree, int (*compare)(const void *key1, const void *key2), void (*destroy)(void *data))
+bistree_init	source/bistree.c	/^void bistree_init(BisTree *tree, int (*compare)(const void *key1, const void$/;"	f	signature:(BisTree *tree, int (*compare)(const void *key1, const void *key2), void (*destroy)(void *data))
+bistree_insert	include/bistree.h	/^int bistree_insert(BisTree *tree, const void *data);$/;"	p	signature:(BisTree *tree, const void *data)
+bistree_insert	source/bistree.c	/^int bistree_insert(BisTree *tree, const void *data) {$/;"	f	signature:(BisTree *tree, const void *data)
+bistree_lookup	include/bistree.h	/^int bistree_lookup(BisTree *tree, void **data);$/;"	p	signature:(BisTree *tree, void **data)
+bistree_lookup	source/bistree.c	/^int bistree_lookup(BisTree *tree, void **data) {$/;"	f	signature:(BisTree *tree, void **data)
+bistree_remove	include/bistree.h	/^int bistree_remove(BisTree *tree, const void *data);$/;"	p	signature:(BisTree *tree, const void *data)
+bistree_remove	source/bistree.c	/^int bistree_remove(BisTree *tree, const void *data) {$/;"	f	signature:(BisTree *tree, const void *data)
+bistree_size	include/bistree.h	61;"	d
+bit_get	include/bit.h	/^int bit_get(const unsigned char *bits, int pos);$/;"	p	signature:(const unsigned char *bits, int pos)
+bit_get	source/bit.c	/^int bit_get(const unsigned char *bits, int pos) {$/;"	f	signature:(const unsigned char *bits, int pos)
+bit_rot_left	include/bit.h	/^void bit_rot_left(unsigned char *bits, int size, int count);$/;"	p	signature:(unsigned char *bits, int size, int count)
+bit_rot_left	source/bit.c	/^void bit_rot_left(unsigned char *bits, int size, int count) {$/;"	f	signature:(unsigned char *bits, int size, int count)
+bit_set	include/bit.h	/^void bit_set(unsigned char *bits, int pos, int state);$/;"	p	signature:(unsigned char *bits, int pos, int state)
+bit_set	source/bit.c	/^void bit_set(unsigned char *bits, int pos, int state) {$/;"	f	signature:(unsigned char *bits, int pos, int state)
+bit_xor	include/bit.h	/^void bit_xor(const unsigned char *bits1, const unsigned char *bits2, unsigned$/;"	p	signature:(const unsigned char *bits1, const unsigned char *bits2, unsigned char *bitsx, int size)
+bit_xor	source/bit.c	/^void bit_xor(const unsigned char *bits1, const unsigned char *bits2, unsigned$/;"	f	signature:(const unsigned char *bits1, const unsigned char *bits2, unsigned char *bitsx, int size)
+bitree_data	include/bitree.h	71;"	d
+bitree_destroy	include/bitree.h	/^void bitree_destroy(BiTree *tree);$/;"	p	signature:(BiTree *tree)
+bitree_destroy	source/bitree.c	/^void bitree_destroy(BiTree *tree) {$/;"	f	signature:(BiTree *tree)
+bitree_init	include/bitree.h	/^void bitree_init(BiTree *tree, void (*destroy)(void *data));$/;"	p	signature:(BiTree *tree, void (*destroy)(void *data))
+bitree_init	source/bitree.c	/^void bitree_init(BiTree *tree, void (*destroy)(void *data)) {$/;"	f	signature:(BiTree *tree, void (*destroy)(void *data))
+bitree_ins_left	include/bitree.h	/^int bitree_ins_left(BiTree *tree, BiTreeNode *node, const void *data);$/;"	p	signature:(BiTree *tree, BiTreeNode *node, const void *data)
+bitree_ins_left	source/bitree.c	/^int bitree_ins_left(BiTree *tree, BiTreeNode *node, const void *data) {$/;"	f	signature:(BiTree *tree, BiTreeNode *node, const void *data)
+bitree_ins_right	include/bitree.h	/^int bitree_ins_right(BiTree *tree, BiTreeNode *node, const void *data);$/;"	p	signature:(BiTree *tree, BiTreeNode *node, const void *data)
+bitree_ins_right	source/bitree.c	/^int bitree_ins_right(BiTree *tree, BiTreeNode *node, const void *data) {$/;"	f	signature:(BiTree *tree, BiTreeNode *node, const void *data)
+bitree_is_eob	include/bitree.h	67;"	d
+bitree_is_leaf	include/bitree.h	69;"	d
+bitree_left	include/bitree.h	73;"	d
+bitree_merge	include/bitree.h	/^int bitree_merge(BiTree *merge, BiTree *left, BiTree *right, const void *data);$/;"	p	signature:(BiTree *merge, BiTree *left, BiTree *right, const void *data)
+bitree_merge	source/bitree.c	/^int bitree_merge(BiTree *merge, BiTree *left, BiTree *right, const void$/;"	f	signature:(BiTree *merge, BiTree *left, BiTree *right, const void *data)
+bitree_rem_left	include/bitree.h	/^void bitree_rem_left(BiTree *tree, BiTreeNode *node);$/;"	p	signature:(BiTree *tree, BiTreeNode *node)
+bitree_rem_left	source/bitree.c	/^void bitree_rem_left(BiTree *tree, BiTreeNode *node) {$/;"	f	signature:(BiTree *tree, BiTreeNode *node)
+bitree_rem_right	include/bitree.h	/^void bitree_rem_right(BiTree *tree, BiTreeNode *node);$/;"	p	signature:(BiTree *tree, BiTreeNode *node)
+bitree_rem_right	source/bitree.c	/^void bitree_rem_right(BiTree *tree, BiTreeNode *node) {$/;"	f	signature:(BiTree *tree, BiTreeNode *node)
+bitree_right	include/bitree.h	75;"	d
+bitree_root	include/bitree.h	65;"	d
+bitree_size	include/bitree.h	63;"	d
+black	include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	e	enum:VertexColor_
+buckets	include/chtbl.h	/^int                buckets;$/;"	m	struct:CHTbl_	access:public
+build_table	source/huffman.c	/^static void build_table(BiTreeNode *node, unsigned short code, unsigned char$/;"	f	file:	signature:(BiTreeNode *node, unsigned short code, unsigned char size, HuffCode *table)
+build_tree	source/huffman.c	/^static int build_tree(int *freqs, BiTree **tree) {$/;"	f	file:	signature:(int *freqs, BiTree **tree)
+cat	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+cat	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+cbc_decipher	include/cbc.h	/^void cbc_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	p	signature:(const unsigned char *ciphertext, unsigned char *plaintext, const unsigned char *key, int size)
+cbc_decipher	source/cbc.c	/^void cbc_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	f	signature:(const unsigned char *ciphertext, unsigned char *plaintext, const unsigned char *key, int size)
+cbc_encipher	include/cbc.h	/^void cbc_encipher(const unsigned char *plaintext, unsigned char *ciphertext,$/;"	p	signature:(const unsigned char *plaintext, unsigned char *ciphertext, const unsigned char *key, int size)
+cbc_encipher	source/cbc.c	/^void cbc_encipher(const unsigned char *plaintext, unsigned char *ciphertext,$/;"	f	signature:(const unsigned char *plaintext, unsigned char *ciphertext, const unsigned char *key, int size)
+chtbl_destroy	include/chtbl.h	/^void chtbl_destroy(CHTbl *htbl);$/;"	p	signature:(CHTbl *htbl)
+chtbl_destroy	source/chtbl.c	/^void chtbl_destroy(CHTbl *htbl) {$/;"	f	signature:(CHTbl *htbl)
+chtbl_init	include/chtbl.h	/^int chtbl_init(CHTbl *htbl, int buckets, int (*h)(const void *key), int$/;"	p	signature:(CHTbl *htbl, int buckets, int (*h)(const void *key), int (*match)(const void *key1, const void *key2), void (*destroy)(void *data))
+chtbl_init	source/chtbl.c	/^int chtbl_init(CHTbl *htbl, int buckets, int (*h)(const void *key), int$/;"	f	signature:(CHTbl *htbl, int buckets, int (*h)(const void *key), int (*match)(const void *key1, const void *key2), void (*destroy)(void*data))
+chtbl_insert	include/chtbl.h	/^int chtbl_insert(CHTbl *htbl, const void *data);$/;"	p	signature:(CHTbl *htbl, const void *data)
+chtbl_insert	source/chtbl.c	/^int chtbl_insert(CHTbl *htbl, const void *data) {$/;"	f	signature:(CHTbl *htbl, const void *data)
+chtbl_lookup	include/chtbl.h	/^int chtbl_lookup(const CHTbl *htbl, void **data);$/;"	p	signature:(const CHTbl *htbl, void **data)
+chtbl_lookup	source/chtbl.c	/^int chtbl_lookup(const CHTbl *htbl, void **data) {$/;"	f	signature:(const CHTbl *htbl, void **data)
+chtbl_remove	include/chtbl.h	/^int chtbl_remove(CHTbl *htbl, void **data);$/;"	p	signature:(CHTbl *htbl, void **data)
+chtbl_remove	source/chtbl.c	/^int chtbl_remove(CHTbl *htbl, void **data) {$/;"	f	signature:(CHTbl *htbl, void **data)
+chtbl_size	include/chtbl.h	50;"	d
+clist_data	include/clist.h	60;"	d
+clist_destroy	include/clist.h	/^void clist_destroy(CList *list);$/;"	p	signature:(CList *list)
+clist_destroy	source/clist.c	/^void clist_destroy(CList *list) {$/;"	f	signature:(CList *list)
+clist_head	include/clist.h	58;"	d
+clist_init	include/clist.h	/^void clist_init(CList *list, void (*destroy)(void *data));$/;"	p	signature:(CList *list, void (*destroy)(void *data))
+clist_init	source/clist.c	/^void clist_init(CList *list, void (*destroy)(void *data)) {$/;"	f	signature:(CList *list, void (*destroy)(void *data))
+clist_ins_next	include/clist.h	/^int clist_ins_next(CList *list, CListElmt *element, const void *data);$/;"	p	signature:(CList *list, CListElmt *element, const void *data)
+clist_ins_next	source/clist.c	/^int clist_ins_next(CList *list, CListElmt *element, const void *data) {$/;"	f	signature:(CList *list, CListElmt *element, const void *data)
+clist_next	include/clist.h	62;"	d
+clist_rem_next	include/clist.h	/^int clist_rem_next(CList *list, CListElmt *element, void **data);$/;"	p	signature:(CList *list, CListElmt *element, void **data)
+clist_rem_next	source/clist.c	/^int clist_rem_next(CList *list, CListElmt *element, void **data) {$/;"	f	signature:(CList *list, CListElmt *element, void **data)
+clist_size	include/clist.h	56;"	d
+code	include/compress.h	/^unsigned short     code;$/;"	m	struct:HuffCode_	access:public
+color	include/bfs.h	/^VertexColor        color;$/;"	m	struct:BfsVertex_	access:public
+color	include/dfs.h	/^VertexColor        color;$/;"	m	struct:DfsVertex_	access:public
+color	include/graphalg.h	/^VertexColor        color;$/;"	m	struct:MstVertex_	access:public
+color	include/graphalg.h	/^VertexColor        color;$/;"	m	struct:PathVertex_	access:public
+color	include/graphalg.h	/^VertexColor        color;$/;"	m	struct:TspVertex_	access:public
+compare	include/bitree.h	/^int                (*compare)(const void *key1, const void *key2);$/;"	m	struct:BiTree_	access:public
+compare	include/heap.h	/^int                (*compare)(const void *key1, const void *key2);$/;"	m	struct:Heap_	access:public
+compare_dir	source/directls.c	/^static int compare_dir(const void *key1, const void *key2) {$/;"	f	file:	signature:(const void *key1, const void *key2)
+compare_freq	source/huffman.c	/^static int compare_freq(const void *tree1, const void *tree2) {$/;"	f	file:	signature:(const void *tree1, const void *tree2)
+compare_int	examples/heap/ex-1.c	/^static int compare_int(const void *int1, const void *int2) {$/;"	f	file:	signature:(const void *int1, const void *int2)
+compare_int	examples/pqueue/ex-1.c	/^static int compare_int(const void *int1, const void *int2) {$/;"	f	file:	signature:(const void *int1, const void *int2)
+compare_int	examples/sort/ex-1.c	/^static int compare_int(const void *int1, const void *int2) {$/;"	f	file:	signature:(const void *int1, const void *int2)
+compare_int	source/qksort.c	/^static int compare_int(const void *int1, const void *int2) {$/;"	f	file:	signature:(const void *int1, const void *int2)
+compare_str	examples/bistree/ex-1.c	/^static int compare_str(const void *str1, const void *str2) {$/;"	f	file:	signature:(const void *str1, const void *str2)
+compare_str	examples/search/ex-1.c	/^static int compare_str(const void *key1, const void *key2) {$/;"	f	file:	signature:(const void *key1, const void *key2)
+compare_str	examples/search/ex-2.c	/^static int compare_str(const void *key1, const void *key2) {$/;"	f	file:	signature:(const void *key1, const void *key2)
+compare_str	examples/sort/ex-1.c	/^static int compare_str(const void *str1, const void *str2) {$/;"	f	file:	signature:(const void *str1, const void *str2)
+compare_str	source/spell.c	/^static int compare_str(const void *str1, const void *str2) {$/;"	f	file:	signature:(const void *str1, const void *str2)
+compare_win	source/lz77.c	/^static int compare_win(const unsigned char *window, const unsigned char$/;"	f	file:	signature:(const unsigned char *window, const unsigned char *buffer, int *offset, unsigned char *next)
+cover	include/cover.h	/^int cover(Set *members, Set *subsets, Set *covering);$/;"	p	signature:(Set *members, Set *subsets, Set *covering)
+cover	source/cover.c	/^int cover(Set *members, Set *subsets, Set *covering) {$/;"	f	signature:(Set *members, Set *subsets, Set *covering)
+ctsort	include/sort.h	/^int ctsort(int *data, int size, int k);$/;"	p	signature:(int *data, int size, int k)
+ctsort	source/ctsort.c	/^int ctsort(int *data, int size, int k) {$/;"	f	signature:(int *data, int size, int k)
+cvxhull	include/geometry.h	/^int cvxhull(const List *P, List *polygon);$/;"	p	signature:(const List *P, List *polygon)
+cvxhull	source/cvxhull.c	/^int cvxhull(const List *P, List *polygon) {$/;"	f	signature:(const List *P, List *polygon)
+d	include/encrypt.h	/^Huge               d;$/;"	m	struct:RsaPriKey_	access:public
+d	include/graphalg.h	/^double             d;$/;"	m	struct:PathVertex_	access:public
+data	include/bfs.h	/^void               *data;$/;"	m	struct:BfsVertex_	access:public
+data	include/bistree.h	/^void               *data;$/;"	m	struct:AvlNode_	access:public
+data	include/bitree.h	/^void               *data;$/;"	m	struct:BiTreeNode_	access:public
+data	include/clist.h	/^void               *data;$/;"	m	struct:CListElmt_	access:public
+data	include/dfs.h	/^void               *data;$/;"	m	struct:DfsVertex_	access:public
+data	include/dlist.h	/^void               *data;$/;"	m	struct:DListElmt_	access:public
+data	include/graphalg.h	/^void               *data;$/;"	m	struct:MstVertex_	access:public
+data	include/graphalg.h	/^void               *data;$/;"	m	struct:PathVertex_	access:public
+data	include/graphalg.h	/^void               *data;$/;"	m	struct:TspVertex_	access:public
+data	include/list.h	/^void               *data;$/;"	m	struct:ListElmt_	access:public
+decipher	source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	e	enum:DesEorD_	file:
+des_decipher	include/encrypt.h	/^void des_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	p	signature:(const unsigned char *ciphertext, unsigned char *plaintext, const unsigned char *key)
+des_decipher	source/des.c	/^void des_decipher(const unsigned char *ciphertext, unsigned char *plaintext,$/;"	f	signature:(const unsigned char *ciphertext, unsigned char *plaintext, const unsigned char *key)
+des_encipher	include/encrypt.h	/^void des_encipher(const unsigned char *plaintext, unsigned char *ciphertext,$/;"	p	signature:(const unsigned char *plaintext, unsigned char *ciphertext, const unsigned char *key)
+des_encipher	source/des.c	/^void des_encipher(const unsigned char *plaintext, unsigned char *ciphertext,$/;"	f	signature:(const unsigned char *plaintext, unsigned char *ciphertext, const unsigned char *key)
+des_main	source/des.c	/^static int des_main(const unsigned char *source, unsigned char *target, const$/;"	f	file:	signature:(const unsigned char *source, unsigned char *target, const unsigned char *key, DesEorD direction)
+destroy	include/bitree.h	/^void               (*destroy)(void *data);$/;"	m	struct:BiTree_	access:public
+destroy	include/chtbl.h	/^void               (*destroy)(void *data);$/;"	m	struct:CHTbl_	access:public
+destroy	include/clist.h	/^void               (*destroy)(void *data);$/;"	m	struct:CList_	access:public
+destroy	include/dlist.h	/^void               (*destroy)(void *data);$/;"	m	struct:DList_	access:public
+destroy	include/graph.h	/^void               (*destroy)(void *data);$/;"	m	struct:Graph_	access:public
+destroy	include/heap.h	/^void               (*destroy)(void *data);$/;"	m	struct:Heap_	access:public
+destroy	include/list.h	/^void               (*destroy)(void *data);$/;"	m	struct:List_	access:public
+destroy	include/ohtbl.h	/^void               (*destroy)(void *data);$/;"	m	struct:OHTbl_	access:public
+destroy_left	source/bistree.c	/^static void destroy_left(BisTree *tree, BiTreeNode *node) {$/;"	f	file:	signature:(BisTree *tree, BiTreeNode *node)
+destroy_netid	examples/graph/ex-2.c	/^static void destroy_netid(void *netid) {$/;"	f	file:	signature:(void *netid)
+destroy_right	source/bistree.c	/^static void destroy_right(BisTree *tree, BiTreeNode *node) {$/;"	f	file:	signature:(BisTree *tree, BiTreeNode *node)
+destroy_right	source/bistree.c	/^static void destroy_right(BisTree *tree, BiTreeNode *node);$/;"	p	file:	signature:(BisTree *tree, BiTreeNode *node)
+destroy_task	examples/graph/ex-3.c	/^static void destroy_task(void *task) {$/;"	f	file:	signature:(void *task)
+destroy_tree	source/huffman.c	/^static void destroy_tree(void *tree) {$/;"	f	file:	signature:(void *tree)
+dfs	include/dfs.h	/^int dfs(Graph *graph, List *ordered);$/;"	p	signature:(Graph *graph, List *ordered)
+dfs	source/dfs.c	/^int dfs(Graph *graph, List *ordered) {$/;"	f	signature:(Graph *graph, List *ordered)
+dfs_main	source/dfs.c	/^static int dfs_main(Graph *graph, AdjList *adjlist, List *ordered) {$/;"	f	file:	signature:(Graph *graph, AdjList *adjlist, List *ordered)
+digit	include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
+dip	examples/bistree/ex-1.c	/^   dip} Words;$/;"	e	enum:Words_	file:
+dip	examples/search/ex-1.c	/^   dip} Words;$/;"	e	enum:Words_	file:
+directls	include/directls.h	/^int directls(const char *path, Directory **dir);$/;"	p	signature:(const char *path, Directory **dir)
+directls	source/directls.c	/^int directls(const char *path, Directory **dir) {$/;"	f	signature:(const char *path, Directory **dir)
+dlist_data	include/dlist.h	70;"	d
+dlist_destroy	include/dlist.h	/^void dlist_destroy(DList *list);$/;"	p	signature:(DList *list)
+dlist_destroy	source/dlist.c	/^void dlist_destroy(DList *list) {$/;"	f	signature:(DList *list)
+dlist_head	include/dlist.h	62;"	d
+dlist_init	include/dlist.h	/^void dlist_init(DList *list, void (*destroy)(void *data));$/;"	p	signature:(DList *list, void (*destroy)(void *data))
+dlist_init	source/dlist.c	/^void dlist_init(DList *list, void (*destroy)(void *data)) {$/;"	f	signature:(DList *list, void (*destroy)(void *data))
+dlist_ins_next	include/dlist.h	/^int dlist_ins_next(DList *list, DListElmt *element, const void *data);$/;"	p	signature:(DList *list, DListElmt *element, const void *data)
+dlist_ins_next	source/dlist.c	/^int dlist_ins_next(DList *list, DListElmt *element, const void *data) {$/;"	f	signature:(DList *list, DListElmt *element, const void *data)
+dlist_ins_prev	include/dlist.h	/^int dlist_ins_prev(DList *list, DListElmt *element, const void *data);$/;"	p	signature:(DList *list, DListElmt *element, const void *data)
+dlist_ins_prev	source/dlist.c	/^int dlist_ins_prev(DList *list, DListElmt *element, const void *data) {$/;"	f	signature:(DList *list, DListElmt *element, const void *data)
+dlist_is_head	include/dlist.h	66;"	d
+dlist_is_tail	include/dlist.h	68;"	d
+dlist_next	include/dlist.h	72;"	d
+dlist_prev	include/dlist.h	74;"	d
+dlist_remove	include/dlist.h	/^int dlist_remove(DList *list, DListElmt *element, void **data);$/;"	p	signature:(DList *list, DListElmt *element, void **data)
+dlist_remove	source/dlist.c	/^int dlist_remove(DList *list, DListElmt *element, void **data) {$/;"	f	signature:(DList *list, DListElmt *element, void **data)
+dlist_size	include/dlist.h	60;"	d
+dlist_tail	include/dlist.h	64;"	d
+e	include/encrypt.h	/^Huge               e;$/;"	m	struct:RsaPubKey_	access:public
+ecount	include/graph.h	/^int                ecount;$/;"	m	struct:Graph_	access:public
+encipher	source/des.c	/^typedef enum DesEorD_ {encipher, decipher} DesEorD;$/;"	e	enum:DesEorD_	file:
+error	include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
+f	examples/nummeths/ex-1.c	/^static double f(double x) {$/;"	f	file:	signature:(double x)
+fact	include/fact.h	/^int fact(int n);$/;"	p	signature:(int n)
+fact	source/fact.c	/^int fact(int n) {$/;"	f	signature:(int n)
+factor	include/bistree.h	/^int                factor;$/;"	m	struct:AvlNode_	access:public
+factor	include/factor.h	/^void factor(int number, int n, int j);$/;"	p	signature:(int number, int n, int j)
+factor	source/factor.c	/^void factor(int number, int n, int j) {$/;"	f	signature:(int number, int n, int j)
+facttail	include/facttail.h	/^int facttail(int n, int a);$/;"	p	signature:(int n, int a)
+facttail	source/facttail.c	/^int facttail(int n, int a) {$/;"	f	signature:(int n, int a)
+free_frame	include/frames.h	/^int free_frame(List *frames, int frame_number);$/;"	p	signature:(List *frames, int frame_number)
+free_frame	source/frames.c	/^int free_frame(List *frames, int frame_number) {$/;"	f	signature:(List *frames, int frame_number)
+freq	include/compress.h	/^int                freq;$/;"	m	struct:HuffNode_	access:public
+g	examples/nummeths/ex-1.c	/^static double g(double x) {$/;"	f	file:	signature:(double x)
+geodist	include/geodist.h	/^int geodist(double lat1, double lon1, double lat2, double lon2, double *d);$/;"	p	signature:(double lat1, double lon1, double lat2, double lon2, double *d)
+geodist	source/geodist.c	/^int geodist(double lat1, double lon1, double lat2, double lon2, double *d) {$/;"	f	signature:(double lat1, double lon1, double lat2, double lon2, double *d)
+get_parcel	include/parcels.h	/^int get_parcel(PQueue *parcels, Parcel *parcel);$/;"	p	signature:(PQueue *parcels, Parcel *parcel)
+get_parcel	source/parcels.c	/^int get_parcel(PQueue *parcels, Parcel *parcel) {$/;"	f	signature:(PQueue *parcels, Parcel *parcel)
+graph_adjlist	include/graph.h	/^int graph_adjlist(const Graph *graph, const void *data, AdjList **adjlist);$/;"	p	signature:(const Graph *graph, const void *data, AdjList **adjlist)
+graph_adjlist	source/graph.c	/^int graph_adjlist(const Graph *graph, const void *data, AdjList **adjlist) {$/;"	f	signature:(const Graph *graph, const void *data, AdjList **adjlist)
+graph_adjlists	include/graph.h	78;"	d
+graph_destroy	include/graph.h	/^void graph_destroy(Graph *graph);$/;"	p	signature:(Graph *graph)
+graph_destroy	source/graph.c	/^void graph_destroy(Graph *graph) {$/;"	f	signature:(Graph *graph)
+graph_ecount	include/graph.h	82;"	d
+graph_init	include/graph.h	/^void graph_init(Graph *graph, int (*match)(const void *key1, const void$/;"	p	signature:(Graph *graph, int (*match)(const void *key1, const void *key2), void (*destroy)(void *data))
+graph_init	source/graph.c	/^void graph_init(Graph *graph, int (*match)(const void *key1, const void$/;"	f	signature:(Graph *graph, int (*match)(const void *key1, const void *key2), void (*destroy)(void *data))
+graph_ins_edge	include/graph.h	/^int graph_ins_edge(Graph *graph, const void *data1, const void *data2);$/;"	p	signature:(Graph *graph, const void *data1, const void *data2)
+graph_ins_edge	source/graph.c	/^int graph_ins_edge(Graph *graph, const void *data1, const void *data2) {$/;"	f	signature:(Graph *graph, const void *data1, const void *data2)
+graph_ins_vertex	include/graph.h	/^int graph_ins_vertex(Graph *graph, const void *data);$/;"	p	signature:(Graph *graph, const void *data)
+graph_ins_vertex	source/graph.c	/^int graph_ins_vertex(Graph *graph, const void *data) {$/;"	f	signature:(Graph *graph, const void *data)
+graph_is_adjacent	include/graph.h	/^int graph_is_adjacent(const Graph *graph, const void *data1, const void$/;"	p	signature:(const Graph *graph, const void *data1, const void *data2)
+graph_is_adjacent	source/graph.c	/^int graph_is_adjacent(const Graph *graph, const void *data1, const void$/;"	f	signature:(const Graph *graph, const void *data1, const void *data2)
+graph_rem_edge	include/graph.h	/^int graph_rem_edge(Graph *graph, void *data1, void **data2);$/;"	p	signature:(Graph *graph, void *data1, void **data2)
+graph_rem_edge	source/graph.c	/^int graph_rem_edge(Graph *graph, void *data1, void **data2) {$/;"	f	signature:(Graph *graph, void *data1, void **data2)
+graph_rem_vertex	include/graph.h	/^int graph_rem_vertex(Graph *graph, void **data);$/;"	p	signature:(Graph *graph, void **data)
+graph_rem_vertex	source/graph.c	/^int graph_rem_vertex(Graph *graph, void **data) {$/;"	f	signature:(Graph *graph, void **data)
+graph_vcount	include/graph.h	80;"	d
+gray	include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	e	enum:VertexColor_
+h	include/chtbl.h	/^int                (*h)(const void *key);$/;"	m	struct:CHTbl_	access:public
+h1	include/ohtbl.h	/^int                (*h1)(const void *key);$/;"	m	struct:OHTbl_	access:public
+h1_char	examples/ohtbl/ex-1.c	/^static int h1_char(const void *key) {$/;"	f	file:	signature:(const void *key)
+h2	include/ohtbl.h	/^int                (*h2)(const void *key);$/;"	m	struct:OHTbl_	access:public
+h2_char	examples/ohtbl/ex-1.c	/^static int h2_char(const void *key) {$/;"	f	file:	signature:(const void *key)
+h_char	examples/chtbl/ex-1.c	/^static int h_char(const void *key) {$/;"	f	file:	signature:(const void *key)
+hashpjw	include/hashpjw.h	/^int hashpjw(const void *key);$/;"	p	signature:(const void *key)
+hashpjw	source/hashpjw.c	/^int hashpjw(const void *key) {$/;"	f	signature:(const void *key)
+hat	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+hat	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+head	include/clist.h	/^CListElmt          *head;$/;"	m	struct:CList_	access:public
+head	include/dlist.h	/^DListElmt          *head;$/;"	m	struct:DList_	access:public
+head	include/list.h	/^ListElmt           *head;$/;"	m	struct:List_	access:public
+heap_destroy	include/heap.h	/^void heap_destroy(Heap *heap);$/;"	p	signature:(Heap *heap)
+heap_destroy	source/heap.c	/^void heap_destroy(Heap *heap) {$/;"	f	signature:(Heap *heap)
+heap_extract	include/heap.h	/^int heap_extract(Heap *heap, void **data);$/;"	p	signature:(Heap *heap, void **data)
+heap_extract	source/heap.c	/^int heap_extract(Heap *heap, void **data) {$/;"	f	signature:(Heap *heap, void **data)
+heap_init	include/heap.h	/^void heap_init(Heap *heap, int (*compare)(const void *key1, const void *key2),$/;"	p	signature:(Heap *heap, int (*compare)(const void *key1, const void *key2), void (*destroy)(void *data))
+heap_init	source/heap.c	/^void heap_init(Heap *heap, int (*compare)(const void *key1, const void *key2),$/;"	f	signature:(Heap *heap, int (*compare)(const void *key1, const void *key2), void (*destroy)(void *data))
+heap_insert	include/heap.h	/^int heap_insert(Heap *heap, const void *data);$/;"	p	signature:(Heap *heap, const void *data)
+heap_insert	source/heap.c	/^int heap_insert(Heap *heap, const void *data) {$/;"	f	signature:(Heap *heap, const void *data)
+heap_left	source/heap.c	20;"	d	file:
+heap_parent	source/heap.c	18;"	d	file:
+heap_right	source/heap.c	22;"	d	file:
+heap_size	include/heap.h	42;"	d
+hidden	include/bistree.h	/^int                hidden;$/;"	m	struct:AvlNode_	access:public
+hide	source/bistree.c	/^static int hide(BisTree *tree, BiTreeNode *node, const void *data) {$/;"	f	file:	signature:(BisTree *tree, BiTreeNode *node, const void *data)
+hop	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+hop	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+hops	include/bfs.h	/^int                hops;$/;"	m	struct:BfsVertex_	access:public
+huffman_compress	include/compress.h	/^int huffman_compress(const unsigned char *original, unsigned char$/;"	p	signature:(const unsigned char *original, unsigned char **compressed, int size)
+huffman_compress	source/huffman.c	/^int huffman_compress(const unsigned char *original, unsigned char$/;"	f	signature:(const unsigned char *original, unsigned char **compressed, int size)
+huffman_uncompress	include/compress.h	/^int huffman_uncompress(const unsigned char *compressed, unsigned char$/;"	p	signature:(const unsigned char *compressed, unsigned char **original)
+huffman_uncompress	source/huffman.c	/^int huffman_uncompress(const unsigned char *compressed, unsigned char$/;"	f	signature:(const unsigned char *compressed, unsigned char **original)
+inorder	include/traverse.h	/^int inorder(const BiTreeNode *node, List *list);$/;"	p	signature:(const BiTreeNode *node, List *list)
+inorder	source/traverse.c	/^int inorder(const BiTreeNode *node, List *list) {$/;"	f	signature:(const BiTreeNode *node, List *list)
+insert	source/bistree.c	/^static int insert(BisTree *tree, BiTreeNode **node, const void *data, int$/;"	f	file:	signature:(BisTree *tree, BiTreeNode **node, const void *data, int *balanced)
+insert_int	examples/bitree/ex-1.c	/^static int insert_int(BiTree *tree, int i) {$/;"	f	file:	signature:(BiTree *tree, int i)
+interpol	include/nummeths.h	/^int interpol(const double *x, const double *fx, int n, double *z, double *pz,$/;"	p	signature:(const double *x, const double *fx, int n, double *z, double *pz, int m)
+interpol	source/interpol.c	/^int interpol(const double *x, const double *fx, int n, double *z, double *pz,$/;"	f	signature:(const double *x, const double *fx, int n, double *z, double *pz, int m)
+issort	include/sort.h	/^int issort(void *data, int size, int esize, int (*compare)(const void *key1,$/;"	p	signature:(void *data, int size, int esize, int (*compare)(const void *key1, const void *key2))
+issort	source/issort.c	/^int issort(void *data, int size, int esize, int (*compare)(const void *key1,$/;"	f	signature:(void *data, int size, int esize, int (*compare)(const void *key1, const void *key2))
+key	include/cover.h	/^void               *key;$/;"	m	struct:KSet_	access:public
+key	include/graphalg.h	/^double             key;$/;"	m	struct:MstVertex_	access:public
+left	include/bitree.h	/^struct BiTreeNode_ *left;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_	access:public
+lex	include/lex.h	/^Token lex(const char *istream, CHTbl *symtbl);$/;"	p	signature:(const char *istream, CHTbl *symtbl)
+lex	source/lex.c	/^Token lex(const char *istream, CHTbl *symtbl) {$/;"	f	signature:(const char *istream, CHTbl *symtbl)
+lexeme	include/symbol.h	/^char               *lexeme;$/;"	m	struct:Symbol_	access:public
+lexit	include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
+lint	include/geometry.h	/^int lint(Point p1, Point p2, Point p3, Point p4);$/;"	p	signature:(Point p1, Point p2, Point p3, Point p4)
+lint	source/lint.c	/^int lint(Point p1, Point p2, Point p3, Point p4) {$/;"	f	signature:(Point p1, Point p2, Point p3, Point p4)
+list_data	include/list.h	67;"	d
+list_destroy	include/list.h	/^void list_destroy(List *list);$/;"	p	signature:(List *list)
+list_destroy	source/list.c	/^void list_destroy(List *list) {$/;"	f	signature:(List *list)
+list_head	include/list.h	59;"	d
+list_init	include/list.h	/^void list_init(List *list, void (*destroy)(void *data));$/;"	p	signature:(List *list, void (*destroy)(void *data))
+list_init	source/list.c	/^void list_init(List *list, void (*destroy)(void *data)) {$/;"	f	signature:(List *list, void (*destroy)(void *data))
+list_ins_next	include/list.h	/^int list_ins_next(List *list, ListElmt *element, const void *data);$/;"	p	signature:(List *list, ListElmt *element, const void *data)
+list_ins_next	source/list.c	/^int list_ins_next(List *list, ListElmt *element, const void *data) {$/;"	f	signature:(List *list, ListElmt *element, const void *data)
+list_is_head	include/list.h	63;"	d
+list_is_tail	include/list.h	65;"	d
+list_next	include/list.h	69;"	d
+list_rem_next	include/list.h	/^int list_rem_next(List *list, ListElmt *element, void **data);$/;"	p	signature:(List *list, ListElmt *element, void **data)
+list_rem_next	source/list.c	/^int list_rem_next(List *list, ListElmt *element, void **data) {$/;"	f	signature:(List *list, ListElmt *element, void **data)
+list_size	include/list.h	57;"	d
+list_tail	include/list.h	61;"	d
+lookup	source/bistree.c	/^static int lookup(BisTree *tree, BiTreeNode *node, void **data) {$/;"	f	file:	signature:(BisTree *tree, BiTreeNode *node, void **data)
+lsqe	include/nummeths.h	/^void lsqe(const double *x, const double *y, int n, double *b1, double *b0);$/;"	p	signature:(const double *x, const double *y, int n, double *b1, double *b0)
+lsqe	source/lsqe.c	/^void lsqe(const double *x, const double *y, int n, double *b1, double *b0) {$/;"	f	signature:(const double *x, const double *y, int n, double *b1, double *b0)
+lz77_compress	include/compress.h	/^int lz77_compress(const unsigned char *original, unsigned char **compressed,$/;"	p	signature:(const unsigned char *original, unsigned char **compressed, int size)
+lz77_compress	source/lz77.c	/^int lz77_compress(const unsigned char *original, unsigned char **compressed,$/;"	f	signature:(const unsigned char *original, unsigned char **compressed, int size)
+lz77_uncompress	include/compress.h	/^int lz77_uncompress(const unsigned char *compressed, unsigned char$/;"	p	signature:(const unsigned char *compressed, unsigned char **original)
+lz77_uncompress	source/lz77.c	/^int lz77_uncompress(const unsigned char *compressed, unsigned char$/;"	f	signature:(const unsigned char *compressed, unsigned char **original)
+main	examples/bistree/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/bit/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/bitree/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/chtbl/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/clist/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/clist/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/compress/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/dlist/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/encrypt/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/encrypt/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/geometry/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/geometry/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/graph/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/graph/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/graph/ex-3.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/graphalg/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/graphalg/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/heap/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/list/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/nummeths/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/ohtbl/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/pqueue/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/queue/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/recurse/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/recurse/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/search/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/search/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/set/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/set/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/sort/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/sort/ex-2.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+main	examples/stack/ex-1.c	/^int main(int argc, char **argv) {$/;"	f	signature:(int argc, char **argv)
+match	include/chtbl.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:CHTbl_	access:public
+match	include/clist.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:CList_	access:public
+match	include/dlist.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:DList_	access:public
+match	include/graph.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:Graph_	access:public
+match	include/list.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:List_	access:public
+match	include/ohtbl.h	/^int                (*match)(const void *key1, const void *key2);$/;"	m	struct:OHTbl_	access:public
+match_char	examples/chtbl/ex-1.c	/^static int match_char(const void *char1, const void *char2) {$/;"	f	file:	signature:(const void *char1, const void *char2)
+match_char	examples/ohtbl/ex-1.c	/^static int match_char(const void *char1, const void *char2) {$/;"	f	file:	signature:(const void *char1, const void *char2)
+match_int	examples/set/ex-1.c	/^static int match_int(const void *key1, const void *key2) {$/;"	f	file:	signature:(const void *key1, const void *key2)
+match_key	examples/set/ex-2.c	/^int match_key(const void *key1, const void *key2) {$/;"	f	signature:(const void *key1, const void *key2)
+match_mst	examples/graphalg/ex-1.c	/^static int match_mst(const void *mst1, const void *mst2) {$/;"	f	file:	signature:(const void *mst1, const void *mst2)
+match_netid	examples/graph/ex-2.c	/^static int match_netid(const void *netid1, const void *netid2) {$/;"	f	file:	signature:(const void *netid1, const void *netid2)
+match_pth	examples/graphalg/ex-1.c	/^static int match_pth(const void *pth1, const void *pth2) {$/;"	f	file:	signature:(const void *pth1, const void *pth2)
+match_pth	examples/graphalg/ex-2.c	/^static int match_pth(const void *pth1, const void *pth2) {$/;"	f	file:	signature:(const void *pth1, const void *pth2)
+match_skill	examples/set/ex-2.c	/^int match_skill(const void *skill1, const void *skill2) {$/;"	f	signature:(const void *skill1, const void *skill2)
+match_str	examples/graph/ex-1.c	/^static int match_str(const void *str1, const void *str2) {$/;"	f	file:	signature:(const void *str1, const void *str2)
+match_task	examples/graph/ex-3.c	/^static int match_task(const void *task1, const void *task2) {$/;"	f	file:	signature:(const void *task1, const void *task2)
+match_tsp	examples/graphalg/ex-1.c	/^static int match_tsp(const void *tsp1, const void *tsp2) {$/;"	f	file:	signature:(const void *tsp1, const void *tsp2)
+merge	source/mgsort.c	/^static int merge(void *data, int esize, int i, int j, int k, int (*compare)$/;"	f	file:	signature:(void *data, int esize, int i, int j, int k, int (*compare) (const void *key1, const void *key2))
+mgsort	include/sort.h	/^int mgsort(void *data, int size, int esize, int i, int k, int (*compare)$/;"	p	signature:(void *data, int size, int esize, int i, int k, int (*compare) (const void *key1, const void *key2))
+mgsort	source/mgsort.c	/^int mgsort(void *data, int size, int esize, int i, int k, int (*compare)$/;"	f	signature:(void *data, int size, int esize, int i, int k, int (*compare) (const void *key1, const void *key2))
+modexp	source/rsa.c	/^static Huge modexp(Huge a, Huge b, Huge n) {$/;"	f	file:	signature:(Huge a, Huge b, Huge n)
+mom	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+mom	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+mop	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+mop	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+mst	include/graphalg.h	/^int mst(Graph *graph, const MstVertex *start, List *span, int (*match)(const$/;"	p	signature:(Graph *graph, const MstVertex *start, List *span, int (*match)(const void *key1, const void *key2))
+mst	source/mst.c	/^int mst(Graph *graph, const MstVertex *start, List *span, int (*match)(const$/;"	f	signature:(Graph *graph, const MstVertex *start, List *span, int (*match)(const void *key1, const void *key2))
+n	include/encrypt.h	/^Huge               n;$/;"	m	struct:RsaPriKey_	access:public
+n	include/encrypt.h	/^Huge               n;$/;"	m	struct:RsaPubKey_	access:public
+name	include/directls.h	/^char               name[MAXNAMLEN + 1];$/;"	m	struct:Directory_	access:public
+next	include/clist.h	/^struct CListElmt_  *next;$/;"	m	struct:CListElmt_	typeref:struct:CListElmt_::CListElmt_	access:public
+next	include/dlist.h	/^struct DListElmt_  *next;$/;"	m	struct:DListElmt_	typeref:struct:DListElmt_::DListElmt_	access:public
+next	include/list.h	/^struct ListElmt_   *next;$/;"	m	struct:ListElmt_	typeref:struct:ListElmt_::ListElmt_	access:public
+next_token	include/symbol.h	/^static char *next_token(const char *istream) {$/;"	f	signature:(const char *istream)
+number	include/page.h	/^int                number;$/;"	m	struct:Page_	access:public
+ohtbl_destroy	include/ohtbl.h	/^void ohtbl_destroy(OHTbl *htbl);$/;"	p	signature:(OHTbl *htbl)
+ohtbl_destroy	source/ohtbl.c	/^void ohtbl_destroy(OHTbl *htbl) {$/;"	f	signature:(OHTbl *htbl)
+ohtbl_init	include/ohtbl.h	/^int ohtbl_init(OHTbl *htbl, int positions, int (*h1)(const void *key), int$/;"	p	signature:(OHTbl *htbl, int positions, int (*h1)(const void *key), int (*h2)(const void *key), int (*match)(const void *key1, const void *key2), void (*destroy)(void *data))
+ohtbl_init	source/ohtbl.c	/^int ohtbl_init(OHTbl *htbl, int positions, int (*h1)(const void *key), int$/;"	f	signature:(OHTbl *htbl, int positions, int (*h1)(const void *key), int (*h2)(const void *key), int (*match)(const void *key1, const void *key2), void (*destroy)(void *data))
+ohtbl_insert	include/ohtbl.h	/^int ohtbl_insert(OHTbl *htbl, const void *data);$/;"	p	signature:(OHTbl *htbl, const void *data)
+ohtbl_insert	source/ohtbl.c	/^int ohtbl_insert(OHTbl *htbl, const void *data) {$/;"	f	signature:(OHTbl *htbl, const void *data)
+ohtbl_lookup	include/ohtbl.h	/^int ohtbl_lookup(const OHTbl *htbl, void **data);$/;"	p	signature:(const OHTbl *htbl, void **data)
+ohtbl_lookup	source/ohtbl.c	/^int ohtbl_lookup(const OHTbl *htbl, void **data) {$/;"	f	signature:(const OHTbl *htbl, void **data)
+ohtbl_remove	include/ohtbl.h	/^int ohtbl_remove(OHTbl *htbl, void **data);$/;"	p	signature:(OHTbl *htbl, void **data)
+ohtbl_remove	source/ohtbl.c	/^int ohtbl_remove(OHTbl *htbl, void **data) {$/;"	f	signature:(OHTbl *htbl, void **data)
+ohtbl_size	include/ohtbl.h	51;"	d
+other	include/lex.h	/^typedef enum Token_ {lexit, error, digit, other} Token;$/;"	e	enum:Token_
+parent	include/graphalg.h	/^struct MstVertex_  *parent;$/;"	m	struct:MstVertex_	typeref:struct:MstVertex_::MstVertex_	access:public
+parent	include/graphalg.h	/^struct PathVertex_ *parent;$/;"	m	struct:PathVertex_	typeref:struct:PathVertex_::PathVertex_	access:public
+partition	source/qksort.c	/^static int partition(void *data, int esize, int i, int k, int (*compare)$/;"	f	file:	signature:(void *data, int esize, int i, int k, int (*compare) (const void *key1, const void *key2))
+permute	source/des.c	/^static void permute(unsigned char *bits, const int *mapping, int n) {$/;"	f	file:	signature:(unsigned char *bits, const int *mapping, int n)
+phi	include/geometry.h	/^                   phi;$/;"	m	struct:SPoint_	access:public
+positions	include/ohtbl.h	/^int                positions;$/;"	m	struct:OHTbl_	access:public
+postorder	include/traverse.h	/^int postorder(const BiTreeNode *node, List *list);$/;"	p	signature:(const BiTreeNode *node, List *list)
+postorder	source/traverse.c	/^int postorder(const BiTreeNode *node, List *list) {$/;"	f	signature:(const BiTreeNode *node, List *list)
+pqueue_destroy	include/pqueue.h	28;"	d
+pqueue_extract	include/pqueue.h	32;"	d
+pqueue_init	include/pqueue.h	26;"	d
+pqueue_insert	include/pqueue.h	30;"	d
+pqueue_peek	include/pqueue.h	34;"	d
+pqueue_size	include/pqueue.h	36;"	d
+preorder	include/traverse.h	/^int preorder(const BiTreeNode *node, List *list);$/;"	p	signature:(const BiTreeNode *node, List *list)
+preorder	source/traverse.c	/^int preorder(const BiTreeNode *node, List *list) {$/;"	f	signature:(const BiTreeNode *node, List *list)
+preorder_tree	examples/bistree/ex-1.c	/^static void preorder_tree(const BiTreeNode *node) {$/;"	f	file:	signature:(const BiTreeNode *node)
+prev	include/dlist.h	/^struct DListElmt_  *prev;$/;"	m	struct:DListElmt_	typeref:struct:DListElmt_::DListElmt_	access:public
+print_graph	examples/graph/ex-1.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:	signature:(const Graph *graph)
+print_graph	examples/graph/ex-2.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:	signature:(const Graph *graph)
+print_graph	examples/graph/ex-3.c	/^static void print_graph(const Graph *graph) {$/;"	f	file:	signature:(const Graph *graph)
+print_graph_mst	examples/graphalg/ex-1.c	/^static void print_graph_mst(const Graph *graph) {$/;"	f	file:	signature:(const Graph *graph)
+print_graph_pth	examples/graphalg/ex-1.c	/^static void print_graph_pth(const Graph *graph) {$/;"	f	file:	signature:(const Graph *graph)
+print_graph_pth	examples/graphalg/ex-2.c	/^static void print_graph_pth(const Graph *graph) {$/;"	f	file:	signature:(const Graph *graph)
+print_heap	examples/heap/ex-1.c	/^static void print_heap(Heap *heap) {$/;"	f	file:	signature:(Heap *heap)
+print_idata	examples/sort/ex-1.c	/^static void print_idata(const int *array, int size) {$/;"	f	file:	signature:(const int *array, int size)
+print_inorder	examples/bitree/ex-1.c	/^static void print_inorder(const BiTreeNode *node) {$/;"	f	file:	signature:(const BiTreeNode *node)
+print_list	examples/clist/ex-1.c	/^static void print_list(const CList *list) {$/;"	f	file:	signature:(const CList *list)
+print_list	examples/dlist/ex-1.c	/^void print_list(const DList *list) {$/;"	f	signature:(const DList *list)
+print_list	examples/list/ex-1.c	/^static void print_list(const List *list) {$/;"	f	file:	signature:(const List *list)
+print_list_tsp	examples/graphalg/ex-1.c	/^static void print_list_tsp(List *vertices) {$/;"	f	file:	signature:(List *vertices)
+print_players	examples/set/ex-2.c	/^static void print_players(const Set *players) {$/;"	f	file:	signature:(const Set *players)
+print_postorder	examples/bitree/ex-1.c	/^static void print_postorder(const BiTreeNode *node) {$/;"	f	file:	signature:(const BiTreeNode *node)
+print_pqueue	examples/pqueue/ex-1.c	/^static void print_pqueue(PQueue *pqueue) {$/;"	f	file:	signature:(PQueue *pqueue)
+print_preorder	examples/bitree/ex-1.c	/^static void print_preorder(const BiTreeNode *node) {$/;"	f	file:	signature:(const BiTreeNode *node)
+print_queue	examples/queue/ex-1.c	/^static void print_queue(const Queue *queue) {$/;"	f	file:	signature:(const Queue *queue)
+print_sdata	examples/sort/ex-1.c	/^static void print_sdata(char array[][STRSIZ], int size) {$/;"	f	file:	signature:(char array[][STRSIZ], int size)
+print_set	examples/set/ex-1.c	/^static void print_set(const Set *set) {$/;"	f	file:	signature:(const Set *set)
+print_skills	examples/set/ex-2.c	/^static void print_skills(const Set *skills) {$/;"	f	file:	signature:(const Set *skills)
+print_stack	examples/stack/ex-1.c	/^static void print_stack(const Stack *stack) {$/;"	f	file:	signature:(const Stack *stack)
+print_table	examples/chtbl/ex-1.c	/^static void print_table(const CHTbl *htbl) {$/;"	f	file:	signature:(const CHTbl *htbl)
+print_table	examples/ohtbl/ex-1.c	/^static void print_table(const OHTbl *htbl) {$/;"	f	file:	signature:(const OHTbl *htbl)
+priority	include/parcel.h	/^int                priority;$/;"	m	struct:Parcel_	access:public
+process_event	include/events.h	/^int process_event(Queue *events, int (*dispatch)(Event *event));$/;"	p	signature:(Queue *events, int (*dispatch)(Event *event))
+process_event	source/events.c	/^int process_event(Queue *events, int (*dispatch)(Event *event)) {$/;"	f	signature:(Queue *events, int (*dispatch)(Event *event))
+put_parcel	include/parcels.h	/^int put_parcel(PQueue *parcels, const Parcel *parcel);$/;"	p	signature:(PQueue *parcels, const Parcel *parcel)
+put_parcel	source/parcels.c	/^int put_parcel(PQueue *parcels, const Parcel *parcel) {$/;"	f	signature:(PQueue *parcels, const Parcel *parcel)
+qksort	include/sort.h	/^int qksort(void *data, int size, int esize, int i, int k, int (*compare)$/;"	p	signature:(void *data, int size, int esize, int i, int k, int (*compare) (const void *key1, const void *key2))
+qksort	source/qksort.c	/^int qksort(void *data, int size, int esize, int i, int k, int (*compare)$/;"	f	signature:(void *data, int size, int esize, int i, int k, int (*compare) (const void *key1, const void *key2))
+queue_dequeue	include/queue.h	/^int queue_dequeue(Queue *queue, void **data);$/;"	p	signature:(Queue *queue, void **data)
+queue_dequeue	source/queue.c	/^int queue_dequeue(Queue *queue, void **data) {$/;"	f	signature:(Queue *queue, void **data)
+queue_destroy	include/queue.h	30;"	d
+queue_enqueue	include/queue.h	/^int queue_enqueue(Queue *queue, const void *data);$/;"	p	signature:(Queue *queue, const void *data)
+queue_enqueue	source/queue.c	/^int queue_enqueue(Queue *queue, const void *data) {$/;"	f	signature:(Queue *queue, const void *data)
+queue_init	include/queue.h	28;"	d
+queue_peek	include/queue.h	36;"	d
+queue_size	include/queue.h	38;"	d
+receive_event	include/events.h	/^int receive_event(Queue *events, const Event *event);$/;"	p	signature:(Queue *events, const Event *event)
+receive_event	source/events.c	/^int receive_event(Queue *events, const Event *event) {$/;"	f	signature:(Queue *events, const Event *event)
+recv_comp	include/transfer.h	/^int recv_comp(int s, unsigned char **data, int *size, int flags);$/;"	p	signature:(int s, unsigned char **data, int *size, int flags)
+recv_comp	source/transfer.c	/^int recv_comp(int s, unsigned char **data, int *size, int flags) {$/;"	f	signature:(int s, unsigned char **data, int *size, int flags)
+reference	include/page.h	/^int                reference;$/;"	m	struct:Page_	access:public
+relax	source/shortest.c	/^static void relax(PathVertex *u, PathVertex *v, double weight) {$/;"	f	file:	signature:(PathVertex *u, PathVertex *v, double weight)
+replace_page	include/page.h	/^int replace_page(CListElmt **current);$/;"	p	signature:(CListElmt **current)
+replace_page	source/page.c	/^int replace_page(CListElmt **current) {$/;"	f	signature:(CListElmt **current)
+rho	include/geometry.h	/^double             rho,$/;"	m	struct:SPoint_	access:public
+right	include/bitree.h	/^struct BiTreeNode_ *right;$/;"	m	struct:BiTreeNode_	typeref:struct:BiTreeNode_::BiTreeNode_	access:public
+root	include/bitree.h	/^BiTreeNode         *root;$/;"	m	struct:BiTree_	access:public
+root	include/nummeths.h	/^int root(double (*f)(double x), double (*g)(double x), double *x, int *n,$/;"	p	signature:(double (*f)(double x), double (*g)(double x), double *x, int *n, double delta)
+root	source/root.c	/^int root(double (*f)(double x), double (*g)(double x), double *x, int *n,$/;"	f	signature:(double (*f)(double x), double (*g)(double x), double *x, int *n, double delta)
+rotate_left	source/bistree.c	/^static void rotate_left(BiTreeNode **node) {$/;"	f	file:	signature:(BiTreeNode **node)
+rotate_right	source/bistree.c	/^static void rotate_right(BiTreeNode **node) {$/;"	f	file:	signature:(BiTreeNode **node)
+route	include/route.h	/^int route(List *paths, PathVertex *destination, PathVertex **next, int$/;"	p	signature:(List *paths, PathVertex *destination, PathVertex **next, int (*match)(const void *key1, const void *key2))
+route	source/route.c	/^int route(List *paths, PathVertex *destination, PathVertex **next, int$/;"	f	signature:(List *paths, PathVertex *destination, PathVertex **next, int (*match)(const void *key1, const void *key2))
+rsa_decipher	include/encrypt.h	/^void rsa_decipher(Huge ciphertext, Huge *plaintext, RsaPriKey prikey);$/;"	p	signature:(Huge ciphertext, Huge *plaintext, RsaPriKey prikey)
+rsa_decipher	source/rsa.c	/^void rsa_decipher(Huge ciphertext, Huge *plaintext, RsaPriKey prikey) {$/;"	f	signature:(Huge ciphertext, Huge *plaintext, RsaPriKey prikey)
+rsa_encipher	include/encrypt.h	/^void rsa_encipher(Huge plaintext, Huge *ciphertext, RsaPubKey pubkey);$/;"	p	signature:(Huge plaintext, Huge *ciphertext, RsaPubKey pubkey)
+rsa_encipher	source/rsa.c	/^void rsa_encipher(Huge plaintext, Huge *ciphertext, RsaPubKey pubkey) {$/;"	f	signature:(Huge plaintext, Huge *ciphertext, RsaPubKey pubkey)
+rxsort	include/sort.h	/^int rxsort(int *data, int size, int p, int k);$/;"	p	signature:(int *data, int size, int p, int k)
+rxsort	source/rxsort.c	/^int rxsort(int *data, int size, int p, int k) {$/;"	f	signature:(int *data, int size, int p, int k)
+search_int	examples/bitree/ex-1.c	/^static BiTreeNode *search_int(BiTree *tree, int i) {$/;"	f	file:	signature:(BiTree *tree, int i)
+send_comp	include/transfer.h	/^int send_comp(int s, const unsigned char *data, int size, int flags);$/;"	p	signature:(int s, const unsigned char *data, int size, int flags)
+send_comp	source/transfer.c	/^int send_comp(int s, const unsigned char *data, int size, int flags) {$/;"	f	signature:(int s, const unsigned char *data, int size, int flags)
+set	include/cover.h	/^Set                set;$/;"	m	struct:KSet_	access:public
+set_destroy	include/set.h	31;"	d
+set_difference	include/set.h	/^int set_difference(Set *setd, const Set *set1, const Set *set2);$/;"	p	signature:(Set *setd, const Set *set1, const Set *set2)
+set_difference	source/set.c	/^int set_difference(Set *setd, const Set *set1, const Set *set2) {$/;"	f	signature:(Set *setd, const Set *set1, const Set *set2)
+set_init	include/set.h	/^void set_init(Set *set, int (*match)(const void *key1, const void *key2),$/;"	p	signature:(Set *set, int (*match)(const void *key1, const void *key2), void (*destroy)(void *data))
+set_init	source/set.c	/^void set_init(Set *set, int (*match)(const void *key1, const void *key2),$/;"	f	signature:(Set *set, int (*match)(const void *key1, const void *key2), void (*destroy)(void *data))
+set_insert	include/set.h	/^int set_insert(Set *set, const void *data);$/;"	p	signature:(Set *set, const void *data)
+set_insert	source/set.c	/^int set_insert(Set *set, const void *data) {$/;"	f	signature:(Set *set, const void *data)
+set_intersection	include/set.h	/^int set_intersection(Set *seti, const Set *set1, const Set *set2);$/;"	p	signature:(Set *seti, const Set *set1, const Set *set2)
+set_intersection	source/set.c	/^int set_intersection(Set *seti, const Set *set1, const Set *set2) {$/;"	f	signature:(Set *seti, const Set *set1, const Set *set2)
+set_is_equal	include/set.h	/^int set_is_equal(const Set *set1, const Set *set2);$/;"	p	signature:(const Set *set1, const Set *set2)
+set_is_equal	source/set.c	/^int set_is_equal(const Set *set1, const Set *set2) {$/;"	f	signature:(const Set *set1, const Set *set2)
+set_is_member	include/set.h	/^int set_is_member(const Set *set, const void *data);$/;"	p	signature:(const Set *set, const void *data)
+set_is_member	source/set.c	/^int set_is_member(const Set *set, const void *data) {$/;"	f	signature:(const Set *set, const void *data)
+set_is_subset	include/set.h	/^int set_is_subset(const Set *set1, const Set *set2);$/;"	p	signature:(const Set *set1, const Set *set2)
+set_is_subset	source/set.c	/^int set_is_subset(const Set *set1, const Set *set2) {$/;"	f	signature:(const Set *set1, const Set *set2)
+set_remove	include/set.h	/^int set_remove(Set *set, void **data);$/;"	p	signature:(Set *set, void **data)
+set_remove	source/set.c	/^int set_remove(Set *set, void **data) {$/;"	f	signature:(Set *set, void **data)
+set_size	include/set.h	49;"	d
+set_union	include/set.h	/^int set_union(Set *setu, const Set *set1, const Set *set2);$/;"	p	signature:(Set *setu, const Set *set1, const Set *set2)
+set_union	source/set.c	/^int set_union(Set *setu, const Set *set1, const Set *set2) {$/;"	f	signature:(Set *setu, const Set *set1, const Set *set2)
+shortest	include/graphalg.h	/^int shortest(Graph *graph, const PathVertex *start, List *paths, int (*match)$/;"	p	signature:(Graph *graph, const PathVertex *start, List *paths, int (*match) (const void *key1, const void *key2))
+shortest	source/shortest.c	/^int shortest(Graph *graph, const PathVertex *start, List *paths, int (*match)$/;"	f	signature:(Graph *graph, const PathVertex *start, List *paths, int (*match) (const void *key1, const void *key2))
+size	include/bitree.h	/^int                size;$/;"	m	struct:BiTree_	access:public
+size	include/chtbl.h	/^int                size;$/;"	m	struct:CHTbl_	access:public
+size	include/clist.h	/^int                size;$/;"	m	struct:CList_	access:public
+size	include/compress.h	/^unsigned char      size;$/;"	m	struct:HuffCode_	access:public
+size	include/dlist.h	/^int                size;$/;"	m	struct:DList_	access:public
+size	include/heap.h	/^int                size;$/;"	m	struct:Heap_	access:public
+size	include/list.h	/^int                size;$/;"	m	struct:List_	access:public
+size	include/ohtbl.h	/^int                size;$/;"	m	struct:OHTbl_	access:public
+spell	include/spell.h	/^int spell(char (*dictionary)[SPELL_SIZE], int size, const char *word);$/;"	p	signature:(char (*dictionary)[SPELL_SIZE], int size, const char *word)
+spell	source/spell.c	/^int spell(char (*dictionary)[SPELL_SIZE], int size, const char *word) {$/;"	f	signature:(char (*dictionary)[SPELL_SIZE], int size, const char *word)
+stack_destroy	include/stack.h	30;"	d
+stack_init	include/stack.h	28;"	d
+stack_peek	include/stack.h	36;"	d
+stack_pop	include/stack.h	/^int stack_pop(Stack *stack, void **data);$/;"	p	signature:(Stack *stack, void **data)
+stack_pop	source/stack.c	/^int stack_pop(Stack *stack, void **data) {$/;"	f	signature:(Stack *stack, void **data)
+stack_push	include/stack.h	/^int stack_push(Stack *stack, const void *data);$/;"	p	signature:(Stack *stack, const void *data)
+stack_push	source/stack.c	/^int stack_push(Stack *stack, const void *data) {$/;"	f	signature:(Stack *stack, const void *data)
+stack_size	include/stack.h	38;"	d
+symbol	include/compress.h	/^unsigned char      symbol;$/;"	m	struct:HuffNode_	access:public
+table	include/chtbl.h	/^List               *table;$/;"	m	struct:CHTbl_	access:public
+table	include/ohtbl.h	/^void               **table;$/;"	m	struct:OHTbl_	access:public
+tail	include/dlist.h	/^DListElmt          *tail;$/;"	m	struct:DList_	access:public
+tail	include/list.h	/^ListElmt           *tail;$/;"	m	struct:List_	access:public
+tap	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+tap	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+theta	include/geometry.h	/^                   theta,$/;"	m	struct:SPoint_	access:public
+tip	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+tip	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+token	include/symbol.h	/^Token              token;$/;"	m	struct:Symbol_	access:public
+top	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+top	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+tree	include/heap.h	/^void               **tree;$/;"	m	struct:Heap_	access:public
+tsp	include/graphalg.h	/^int tsp(List *vertices, const TspVertex *start, List *tour, int (*match)$/;"	p	signature:(List *vertices, const TspVertex *start, List *tour, int (*match) (const void *key1, const void *key2))
+tsp	source/tsp.c	/^int tsp(List *vertices, const TspVertex *start, List *tour, int (*match)$/;"	f	signature:(List *vertices, const TspVertex *start, List *tour, int (*match) (const void *key1, const void *key2))
+type	include/event.h	/^int                type;$/;"	m	struct:Event_	access:public
+used	include/compress.h	/^unsigned char      used;$/;"	m	struct:HuffCode_	access:public
+vacated	include/ohtbl.h	/^void               *vacated;$/;"	m	struct:OHTbl_	access:public
+vacated	source/ohtbl.c	/^static char        vacated;$/;"	v	file:
+vcount	include/graph.h	/^int                vcount;$/;"	m	struct:Graph_	access:public
+vertex	examples/graphalg/ex-1.c	/^char               vertex[STRSIZ];$/;"	m	struct:CoordData_	file:	access:public
+vertex	include/graph.h	/^void               *vertex;$/;"	m	struct:AdjList_	access:public
+vertex1	examples/graphalg/ex-1.c	/^char               vertex1[STRSIZ],$/;"	m	struct:EdgeData_	file:	access:public
+vertex1	examples/graphalg/ex-2.c	/^char               vertex1[STRSIZ],$/;"	m	struct:EdgeData_	file:	access:public
+vertex2	examples/graphalg/ex-1.c	/^                   vertex2[STRSIZ];$/;"	m	struct:EdgeData_	file:	access:public
+vertex2	examples/graphalg/ex-2.c	/^                   vertex2[STRSIZ];$/;"	m	struct:EdgeData_	file:	access:public
+wax	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+wax	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+weight	examples/graphalg/ex-1.c	/^double             weight;$/;"	m	struct:EdgeData_	file:	access:public
+weight	examples/graphalg/ex-2.c	/^double             weight;$/;"	m	struct:EdgeData_	file:	access:public
+weight	include/graphalg.h	/^double             weight;$/;"	m	struct:MstVertex_	access:public
+weight	include/graphalg.h	/^double             weight;$/;"	m	struct:PathVertex_	access:public
+white	include/graph.h	/^typedef enum VertexColor_ {white, gray, black} VertexColor;$/;"	e	enum:VertexColor_
+x	examples/graphalg/ex-1.c	/^double             x,$/;"	m	struct:CoordData_	file:	access:public
+x	include/geometry.h	/^double             x,$/;"	m	struct:Point_	access:public
+x	include/graphalg.h	/^double             x,$/;"	m	struct:TspVertex_	access:public
+y	examples/graphalg/ex-1.c	/^                   y;$/;"	m	struct:CoordData_	file:	access:public
+y	include/geometry.h	/^                   y,$/;"	m	struct:Point_	access:public
+y	include/graphalg.h	/^                   y;$/;"	m	struct:TspVertex_	access:public
+z	include/geometry.h	/^                   z;$/;"	m	struct:Point_	access:public
+zoo	examples/bistree/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
+zoo	examples/search/ex-1.c	/^typedef enum Words_ {hop, hat, tap, bat, tip, mop, mom, cat, zoo, wax, top,$/;"	e	enum:Words_	file:
