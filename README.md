@@ -35,4 +35,9 @@ Contents
       reference for which source files must be compiled and which objects must
       be linked in order to make use of certain data structures or algorithms,
       etc.
+New Log 测试算法部分
+====================
+插入排序
+-------
+
       
