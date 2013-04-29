@@ -39,5 +39,11 @@ New Log 测试算法部分
 ====================
 插入排序
 -------
+插入排序新添加测试代码：
+./examples/inssort/inssort.c
+./examples/inssort/inssort.h
+./examples/inssort/test_inssort.c
+./examples/inssort/makefile
+./examples/inssort/readme
 
       
